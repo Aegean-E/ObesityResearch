@@ -17,7 +17,7 @@ is quarantined. Nothing moves from there to here without its primary source bein
 |---|---|---|---|---|---|---|---|
 | A1 | Adipose stromal cells isolated from lymphoedematous tissue are functionally **normal** | No difference vs healthy in doubling time (passages 3, 10), lipid accumulation across **4** differentiation protocols, PPARγ / perilipin / FAS / DGAT2 / ATGL mRNA, insulin-stimulated Akt phosphorylation, or basal and stimulated lipolysis | Human, breast-cancer-related lymphoedema; n=11 vs 11 vs 11 | D3/E1 | contributory (locates cause **outside** the cell) | None found; authors state it as their own negative result | [Sci Rep 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8046998/) |
 | A2 | Lymphoedema-tissue-derived **fluid** drives adipogenesis better than serum | Higher PPARγ, perilipin; Oil Red O after 12-day differentiation; fluid by 300 g centrifugation of aspirate; **n=6** | Human preadipocytes + human interstitial fluid | **D7/E1** | contributory | Small n; Oil Red O conflates differentiation with lipid per cell (guide R3) | same |
-| A3 | That fluid carries **~3× the free fatty acid of serum** | ~3×; distinct lipidome (phosphatidylserines ↑); miRNA several-fold higher | Human | D3/E1 | — (composition) | None found | same |
+| A3 | ~~That fluid carries **~3× the free fatty acid of serum**~~ **↓ METHOD-CONFOUNDED 2026-10-02** | ~3×; distinct lipidome (phosphatidylserines ↑); miRNA several-fold higher | Human | ~~D3/E1~~ **uncoded** | — | **Fluid came from liposuction aspirate centrifuged at 300 g then frozen at −80 °C. Liposuction ruptures adipocytes and freeze–thaw lyses more, so a fat-rich homogenate releases FFA regardless of interstitial concentration. Normal adipose lymph is NEFA-*poor* vs plasma (C6), so a 3× enrichment inverts the physiological baseline. Careful groups sample by surgical dissection *before* tumescent infiltration to avoid exactly this** | same |
 | A4 | The adipogenic fraction of lymph is **lipid** | Oleic, α-linolenic, palmitoleic, palmitic acids each induce adipogenesis in vitro | Mouse lymph → preadipocytes | D7/E1 | contributory | — | [Cell Metab 2017 review](https://pmc.ncbi.nlm.nih.gov/articles/PMC5629116/) |
 | A5 | **Normal** lymph is as adipogenic as mutant lymph → the lesion is **exposure**, not composition | No significant compositional difference, WT vs *Prox1*⁺/⁻ | Mouse | D5/E1 | contributory | — | same |
 | A6 | *Prox1* haploinsufficiency causes **adult-onset obesity** via lymph leakage | Subcutaneous + intra-abdominal fat, concentrated around lymph nodes and mesentery | Mouse, genetic | D5/E1 | **necessary** (in this model) | Single gene, mispatterning is developmental — may not model acquired lymphatic failure | [Nat Genet 2005](https://www.nature.com/articles/ng1642) |
@@ -48,6 +48,36 @@ is quarantined. Nothing moves from there to here without its primary source bein
 | C4 | **C3's interpretation is contested** — inferring osmotically inactive storage from a raised (Na+K)/H₂O ratio ignores other osmolytes; isosmotic lymph argues against sustained interstitial hypertonicity | — | — | D0 (critique) | [critique review](https://pubmed.ncbi.nlm.nih.gov/33350284/) |
 | C5 | Local skin hypertonicity → macrophage TonEBP/NFAT5 → VEGF-C → lymphangiogenesis; macrophages chemotax toward high salt as mobile osmosensors | — | Rat / mouse | D5/E1 | [Machnik, Nat Med 2009](https://www.nature.com/articles/nm.1960) |
 
+## D — Transport: the size rule ★ the project's sharpest tool
+
+| # | Claim | Value | Model | D/E | Causal | Counter-evidence | Source |
+|---|---|---|---|---|---|---|---|
+| **D1** | **Lymph vs capillary transport out of adipose tissue is a direct function of molecular radius** | Lymph fraction rises **14% at 1.18 nm (IL-8) → 100% at 3.24 nm (TNFα)** | Human, afferent peripheral lymph vs venous plasma, **n=12** healthy men | **D1/E1** | — (anatomical) | None found; single study, needs replication | [Am J Physiol 2011](https://journals.physiology.org/doi/full/10.1152/ajpendo.00058.2011) |
+| **D2** | Adipose lymph is **NEFA-poor relative to plasma** | **101 ± 19** vs **213 ± 33 µmol/L** | Human | D1/E1 | — | — | same |
+| **D3** | Lymph NEFA tracks lymph albumin at the plasma ratio → it is **filtered plasma, not adipocyte export** | NEFA:albumin **0.40 ± 0.08** lymph vs **0.32 ± 0.05** plasma, **p=0.35 NS** | Human | D1/E1 | — | Slight non-significant elevation in lymph; cannot exclude a trivial local contribution | same |
+| **D4** | All adipokines except adiponectin are **more concentrated in lymph** than plasma; leptin and MCP-1 secreted fastest | **43 µg/h ≈ 2.7 nmol/h** (leptin), **32 µg/h ≈ 2.4 nmol/h** (MCP-1) | Human | D1/E1 | — | — | same |
+| **D5** | Adipose tissue blood flow, fasting | abdominal **~3–5 mL·100 g⁻¹·min⁻¹**; leg **1.0 ± 0.3** | Human | D1/E1 | — | — | [Update on ATBF regulation](https://journals.physiology.org/doi/full/10.1152/ajpendo.00351.2011) |
+| **D6** | Obesity **reduces** adipose lymphatic drainage of macromolecules | — | Human | D3/E1 | contributory | Reverse causality unresolved (B8) | [Int J Obes 2012](https://www.nature.com/articles/ijo201298) |
+
+**What D1–D3 establish:** NEFA (~0.4 nm, lipophilic, crossing endothelium freely) and glycerol
+(92 Da) are far below the size gate and leave by **capillary**. **Lymphatic obstruction cannot
+trap them.** This kills the clearance-failure mechanism (H1 §3A.1) on anatomical grounds,
+independently of session 1 contradicting its direction.
+
+**What D1 + D4 open (my inference, not shown):** lymphatic stasis should retain the **large**
+molecules — adipokines and cytokines, not lipids — producing a size-filtered local
+inflammatory milieu with lipid handling untouched. TNFα would be fully retained, IL-8 barely.
+Predicts retention ranked by molecular radius; testable with one multiplex panel.
+
+## E — Lipoedema staging (resolves C-02)
+
+| # | Claim | Value | Model | D/E | Source |
+|---|---|---|---|---|---|
+| E1 | Adipocyte hypertrophy in lipoedema is **stage-dependent** | **Stage I: no difference from controls.** Stage II: significant shift larger (p<0.05). Stage III: ~6,000 µm² affected thigh. n = 9 / 16 / 5 / 14 controls | Human | D3/E1 | [PMC10417720](https://pmc.ncbi.nlm.nih.gov/articles/PMC10417720/) |
+| E2 | **Fibrosis precedes hypertrophy** — elevated at stage I with normal adipocyte size | Stage I thigh p<0.05; stage II p<0.005; confined to affected extremities, absent abdominally | Human | D3/E1 | same |
+| E3 | Inflammation follows: M2-like macrophages elevated by stage II; TNF and IL6 up stages II–III, minimal stage I | — | Human | D3/E1 | same |
+| E4 | **Operational:** biopsies taken by surgical dissection **before** tumescent infiltration, *en bloc*, superficial + deep — deliberately avoiding liposuction-damaged tissue | — | — | — | same |
+
 ---
 
 ## Open contradictions
@@ -55,13 +85,17 @@ is quarantined. Nothing moves from there to here without its primary source bein
 | ID | Contradiction | Status |
 |---|---|---|
 | **C-01** | Cell-volume anabolism needs water **gain** to drive storage; dehydration-survival logic needs water **loss** (fat banks metabolic water). Both cannot dominate | open |
-| **C-02** | Adipocyte size in human lymphoedema — B5 vs [a paper claiming the opposite](https://www.tandfonline.com/doi/full/10.1080/2000656X.2021.1953042). Candidate explanations: sampling site, disease stage, liposuction vs needle biopsy size selection, comparator choice | open — settle before any hypertrophy/hyperplasia claim |
+| **C-02** | ~~Adipocyte size in human lymphoedema~~ | ✅ **RESOLVED 2026-10-02** — hypertrophy is **stage-dependent** (E1): absent at stage I, present from stage II. Two studies sampling different stage mixes disagree exactly as observed, with neither wrong. Compounded by sampling method (liposuction aspirate vs surgical biopsy, E4). **Any future size claim must state stage and sampling method** |
 | **C-03** | If lymph **stasis** drives adipose accumulation (A2, A4, A8) and high salt **increases** lymph flow (B6), high salt should be *anti*-adipogenic — contradicting the sodium–adiposity association in [guide §2.6](guide.md) | open |
 
 ## Known gaps
 
 | Gap | Why it matters |
 |---|---|
-| **Does lymphatic clearance capacity set net adipose lipid flux?** The lymphatic literature covers lipid *absorption* and transport but does **not** address lipolysis rates or fatty-acid clearance *from* adipose tissue | This is the live question after session 1, and it is close to unstudied. Adipose microdialysis plus lymph-flow measurement would address it |
+| ~~**Does lymphatic clearance capacity set net adipose lipid flux?**~~ | ✅ **ANSWERED 2026-10-02: no.** D1–D3 — the lymphatic route is size-gated above ~1–3 nm, NEFA and glycerol are far below it and leave by capillary, and adipose lymph is NEFA-poor filtrate. The question was built on a false premise. Replaced by the row below |
+| **Does lymphatic stasis retain adipokines and cytokines in proportion to molecular radius?** | The reformulation D1+D4 implies. Predicts a ranking in advance, so one multiplex panel across a radius range (affected vs unaffected tissue) tests it. This is now the live question |
+| **DNL flux in lymphoedematous tissue** — never measured (B4) | The lipogenesis half of H1 has no flux data in the one relevant human setting |
+| **Venous vs lymphatic oedema compared on adipose mass** — appears never done | Separates fluid volume from lymph as the agent (H1 §3A.5) |
+| **D1 is a single study (n=12)** | The size rule is now load-bearing for the whole project. It needs independent replication before more is built on it |
 | **DNL flux in lymphoedematous tissue** — never measured (B4) | The lipogenesis half of H1 has no flux data in the one relevant human setting |
 | **Venous vs lymphatic oedema compared on adipose mass** — appears never done | Separates fluid volume from lymph as the agent (H1 §3A.5) |

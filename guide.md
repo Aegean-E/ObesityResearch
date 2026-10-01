@@ -458,6 +458,24 @@ wrong is the most reusable thing in the project.
 
 **R18 — Numbers in this file are from memory until verified.** See §4.
 
+**R19 — Read the preparation, not just the result.** How the sample was obtained can
+manufacture the finding. The instance that produced this rule: I recorded "lymphoedema fluid
+has ~3× the FFA of serum" without noting the fluid was **centrifuged liposuction aspirate,
+freeze–thawed** — a process that ruptures adipocytes and releases fatty acid regardless of
+interstitial concentration. Careful groups in the same field biopsy *before* tumescent
+infiltration precisely to avoid this. **R14's "figure level" includes the methods section.**
+For this project specifically, always ask: liposuction aspirate or surgical biopsy? Cannulated
+lymph or tissue homogenate? Freeze–thawed? Ex vivo incubation that washes away the very
+gradient under study?
+
+**R20 — Transport out of a tissue is size-gated; state the molecular radius.** Lymph-vs-
+capillary partitioning from human adipose tissue runs from **14% lymphatic at 1.18 nm to 100%
+at 3.24 nm**. So "impaired clearance" is never a claim about a tissue — it is a claim about a
+**molecule**. Small lipophilic species (NEFA ~0.4 nm, glycerol 92 Da) leave by capillary and
+are untouched by lymphatic obstruction; proteins above ~3 nm are entirely lymph-dependent.
+Any clearance argument must name the species and its radius, or it is not an argument
+([claims.md §D](claims.md)).
+
 ---
 
 ## 4. Quantitative anchors — ⚠ UNVERIFIED

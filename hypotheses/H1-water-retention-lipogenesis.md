@@ -29,6 +29,31 @@ opened 2026-10-01 · the project's central hypothesis
 > **So §3A.5's rival reading beat the water reading.** "Holding water" is a misdescription;
 > "failing to clear lymph" is the mechanism. Sections below are left standing with their
 > corrections marked, per R17 — do not read §3A.1 or §3A.6 as current.
+>
+> ### Session 2 (2026-10-02) — the lipid reading narrows too
+>
+> **§3A.1 is now dead on anatomy**, not merely contradicted: lymph/capillary transport is
+> **size-gated** (14% lymph at 1.18 nm → 100% at 3.24 nm), so NEFA and glycerol leave by
+> capillary and lymphatic failure cannot trap them. And the **~3× FFA** figure that
+> underpinned the fatty-acid reading is **method-confounded** — that fluid was centrifuged
+> liposuction aspirate, freeze–thawed, and liposuction ruptures adipocytes.
+>
+> **Current best form of the hypothesis — H1b‴:**
+>
+> > Lymphatic stasis retains molecules **above ~1–3 nm** — adipokines and cytokines, **not
+> > lipids** — producing a size-filtered local inflammatory milieu that drives adipogenesis.
+> > Water is neither agent nor vehicle; it is what makes the obstruction visible.
+>
+> This fits the macrophage infiltrate and cytokine/T-cell findings that previously looked
+> incidental, and it **predicts retention ranked by molecular radius** — testable in one
+> multiplex panel. *(My inference, not shown.)* The mouse cannulated-lymph work (claims A4,
+> A5) still supports a lipid contribution and is not method-confounded; the two readings are
+> not yet separated.
+>
+> **C-02 is resolved:** adipocyte hypertrophy is **stage-dependent** (absent stage I, present
+> from stage II), which reconciles the conflicting human reports without either being wrong.
+> **Fibrosis precedes hypertrophy**, which favours §3A.3 (mechanics) over §3A.2
+> (hypoxia-from-hypertrophy) and resolves the tension I flagged between them.
 
 ---
 
@@ -165,7 +190,19 @@ interstitium**, with no change in cell volume required. Three are clearance/tran
 arguments and one is mechanical; together they make H1b′ the strongest-supported form of
 the hypothesis, mostly because of §3A.4.
 
-### 3A.1 Clearance failure makes lipolysis futile ~~★ the tissue-level AQP7~~ ✗ CONTRADICTED
+### 3A.1 Clearance failure makes lipolysis futile ~~★ the tissue-level AQP7~~ ✗✗ **DEAD**
+
+> **Refuted on anatomy, 2026-10-02 — do not revisit without new anatomy.** Lymph-vs-capillary
+> transport out of human adipose tissue is **size-gated**: the lymph fraction rises from
+> **14% at 1.18 nm to 100% at 3.24 nm** molecular radius. NEFA (~0.4 nm, lipophilic, crossing
+> endothelium freely) and glycerol (92 Da) are far below the gate and leave by **capillary**.
+> Adipose lymph is NEFA-**poor** versus plasma (101 ± 19 vs 213 ± 33 µmol/L) and its
+> NEFA:albumin ratio matches plasma (p=0.35), so its NEFA is filtered plasma, not adipocyte
+> export. **Lymphatic failure cannot trap molecules that never used the lymphatic route.**
+>
+> Two independent refutations now stand: direction (session 1) and route (session 2).
+> See [claims.md §D](../claims.md) and
+> [session 2](../sessions/2026-10-02-clearance-and-C02.md).
 
 > **Contradicted in direction, 2026-10-01.** Human lymphoedema adipose tissue shows
 > **higher** glycerol and FFA release (basal and isoproterenol-stimulated) and a
