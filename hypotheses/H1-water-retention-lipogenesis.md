@@ -20,19 +20,34 @@ pinned down before a single search is worth running.
 | Form | Compartment | Does the cell swell? | Plasma osmolality |
 |---|---|---|---|
 | **H1a — cellular** | intracellular water ↑ | **yes** | ↓ if dilutional; unchanged if osmolyte-driven |
-| **H1b — extracellular** | interstitial / plasma volume ↑ (edema) | **no** | normal |
+| **H1b — systemic extracellular** | plasma volume / generalised ECF ↑ | **no** | normal |
+| **H1b′ — local interstitial** | **interstitial fluid ↑ within subcutaneous adipose tissue itself** | **no — and it does not need to** | normal |
 | **H1c — program** | either; water is a *marker* | irrelevant | either |
 
-**This is the decisive fork.** Isotonic sodium-plus-water retention expands the
-extracellular space **without changing cell volume at all** — water follows sodium and
-stays outside the cell. So if the mechanism runs through cell volume, then ordinary edema
-is *not* the exposure, and a patient with swollen ankles is not an instance of the
-hypothesis.
+Isotonic sodium-plus-water retention expands the extracellular space **without changing
+cell volume at all** — water follows sodium and stays outside the cell. This is the exact
+mirror of the tonicity rule in [guide.md §1.2](../guide.md): there, a rise in osmolality
+carried by urea does not shrink cells; here, water retained with sodium does not swell them.
 
-This is the exact mirror of the tonicity rule in [guide.md §1.2](../guide.md): there, a
-rise in osmolality carried by urea does not shrink cells. Here, water retained with sodium
-does not swell them. Both failures come from the same error — treating a whole-body number
-as if it were a cell-level force.
+~~So if the mechanism runs through cell volume, then ordinary edema is *not* the exposure,
+and a patient with swollen ankles is not an instance of the hypothesis.~~
+
+**Correction, 2026-10-01 (guide R17) — this was wrong, and wrong in a way that nearly cost
+the project its best evidence.** The inference above smuggles in an assumption: that the
+*only* route by which extracellular water could matter is by changing cell volume. That
+assumption fails for one compartment specifically — **subcutaneous adipose tissue**, where
+the interstitium *is the adipocyte's immediate microenvironment*. Fluid accumulating there
+does not need to enter the adipocyte to act on it. It changes the tissue's mechanics, its
+diffusion distances, and the clearance of lipolysis products — each a route to lipid flux
+that bypasses cell volume entirely (§3A).
+
+So **H1b′ is a distinct hypothesis, not a weaker version of H1a**, and it has an enormous
+methodological advantage over everything else in this file: **it can be localised.** Which
+means it can beat the insulin null (§1.2) that no systemic observation can beat. See §3A.4.
+
+**The error pattern, recorded for reuse:** I had one correct mechanism (cell volume) and
+used it as a *filter* on which exposures could count, rather than asking what *else* the
+exposure could do. Having a good mechanism made me stop enumerating. Watch for this.
 
 ### 1.2 Causal or coincident?
 
@@ -113,6 +128,155 @@ This is attractive, so it needs guarding: it is currently **my construction, not
 finding** *(my inference, not shown)*. It predicts something sharp and checkable — that
 intracellular osmolyte content and cell water rise in adipose tissue under systemic
 hyperosmolality — and that prediction is where it should be attacked.
+
+---
+
+## 3A. The subcutaneous route (H1b′) — mechanisms that bypass cell volume
+
+Added 2026-10-01 after the §1.1 correction. These act on the adipocyte **from the
+interstitium**, with no change in cell volume required. Three are clearance/transport
+arguments and one is mechanical; together they make H1b′ the strongest-supported form of
+the hypothesis, mostly because of §3A.4.
+
+### 3A.1 Clearance failure makes lipolysis futile ★ the tissue-level AQP7
+
+This is the same logic as [§3.4](#34-aqp7--water-and-glycerol-through-the-same-protein) one
+scale up, and it may be the cleanest answer to the "inhibits lipolysis" half of the
+hypothesis.
+
+Lipolysis releases **glycerol** and **non-esterified fatty acids** into the interstitium.
+Both must then *leave the tissue* — NEFA albumin-bound into capillary blood, with lymph
+carrying its share. If the interstitium is stagnant, both products accumulate locally and
+are available for **re-esterification** (glycerol → glycerol kinase → glycerol-3-phosphate;
+NEFA → re-acylation).
+
+The consequence is sharp: **gross lipolysis can run at a completely normal rate while net
+lipolysis falls to zero.** Nothing in the lipolytic machinery changes — no HSL, no ATGL, no
+perilipin. The hypothesis's second half is satisfied by a *transport* failure rather than a
+*signalling* one. Triglyceride–fatty-acid futile cycling is the mechanism, and it is
+thermodynamically wasteful but metabolically silent from outside.
+
+**This is measurable in humans with existing technique.** Adipose tissue **microdialysis**
+recovers interstitial glycerol and NEFA directly. A paired measurement in affected vs
+unaffected limb in unilateral lymphoedema would test it, with each patient as their own
+control. No new method required. *(My inference that this has not been done — verify.)*
+
+### 3A.2 Diffusion distance → local hypoxia → HIF-1α
+
+Interstitial fluid accumulation increases the distance from capillary to adipocyte. Oxygen
+delivery is diffusion-limited in adipose tissue, so expanded interstitium means **local
+hypoxia**, independent of any systemic change.
+
+HIF-1α then: suppresses fatty-acid oxidation (CPT1), upregulates lipid-droplet proteins
+(PLIN2), promotes lipid storage, and drives local fibrosis and inflammation. Adipose tissue
+hypoxia is a well-documented feature of obese adipose tissue — but normally framed as a
+*consequence* of adipocyte hypertrophy outgrowing its blood supply. H1b′ proposes the
+**reverse arrow**: interstitial expansion causes the hypoxia, which causes the storage.
+Same two variables, opposite causality — so this is a reverse-causality problem
+(guide R9) before it is evidence, and must be argued on timing, not association.
+
+**Contested on the lipolysis half:** hypoxia is variously reported to raise basal lipolysis
+and to blunt catecholamine-stimulated lipolysis. Do not present this as settled.
+
+### 3A.3 Tissue mechanics → YAP/TAZ → adipogenesis
+
+Adipogenesis is mechanosensitive, and the direction favours H1b′: **stiff/high-tension
+substrates keep YAP/TAZ active and suppress PPARγ-driven differentiation, while soft,
+compliant, low-tension conditions permit it.**
+
+Interstitial fluid loosens and hydrates the matrix, reducing mechanical restraint on
+resident progenitors. This connects to the **adipose expandability** literature: tissue
+that cannot expand (fibrotic, stiff) drives ectopic fat and metabolic disease, while
+compliant tissue stores safely. On that reading, interstitial fluid is **permissive** —
+guide R15's category — rather than instructive. It does not tell progenitors to
+differentiate; it removes the mechanical reason they were not.
+
+Note the tension with §3A.2: fluid cannot straightforwardly both loosen the matrix *and*
+drive the fibrosis that stiffens it. Either they act on different timescales — acute
+loosening, chronic fibrosis — or one is wrong. **Unresolved; do not use both at once
+without saying which phase.**
+
+### 3A.4 Lymphoedema — the natural experiment, and it defeats the insulin null ★★
+
+**This is the most important item in the file, and I missed it entirely in v0.1.**
+
+Chronic lymphoedema is sustained, localised accumulation of subcutaneous interstitial
+fluid. And the affected limb does not merely hold fluid — **it accumulates adipose
+tissue.** The clinical signature is well known: long-standing lymphoedematous limbs show
+genuine adipose hypertrophy, and liposuction is used therapeutically *precisely because* a
+large share of the excess limb volume turns out to be fat rather than water.
+
+Why this outranks every test in §4:
+
+> **Lymphoedema is usually unilateral. Insulin is systemic.**
+
+The insulin common-cause null (§1.2, §3.5) explains any *systemic* pairing of water
+retention with fat gain, and no observational systemic design can escape it. But it
+**cannot explain why one limb gains fat and the other does not in the same person at the
+same insulin concentration.** The contralateral limb is a within-subject control that
+removes insulin, cortisol, aldosterone, PPARγ, diet, activity, genotype, and age at a
+stroke.
+
+That makes unilateral lymphoedema the one available setting where H1b′ is testable against
+its hardest rival using humans who already exist. Everything else in this file is either
+in vitro or confounded.
+
+**Animal support:** lymphatic insufficiency models — *Prox1* haploinsufficiency most
+notably — have been reported to produce **adult-onset obesity**, with adipose accumulating
+around leaky lymphatic vessels. If that holds, it is lymph-driven adipogenesis in vivo,
+with the leak as the cause rather than the consequence.
+
+### 3A.5 Is it the water, or the lymph? — the discriminating test
+
+The §3A.4 observation has an alternative reading that must be separated out, because it
+changes the whole hypothesis: perhaps it is not interstitial **fluid volume** at all, but
+the **composition** of stagnant lymph, or the lymphatic failure itself.
+
+Lymph carries albumin, lipoproteins, fatty acids, cytokines and immune cells. The *Prox1*
+work reportedly showed **lymph fluid itself promotes preadipocyte differentiation** in
+culture — which would make the adipogenic agent a solute in the lymph, not the water
+carrying it.
+
+**The test writes itself, and it is the best one in the project:**
+
+> **Venous oedema versus lymphatic oedema.**
+> Chronic venous insufficiency and chronic lymphoedema both produce subcutaneous
+> interstitial fluid accumulation in a limb. Only the second involves lymphatic failure
+> and lymph stasis.
+> → If **both** cause local fat gain, the agent is interstitial fluid volume (H1b′ proper).
+> → If **only lymphoedema** does, the agent is lymph composition or lymphatic transport,
+> and "holding water" is the wrong description of the mechanism.
+
+A supporting observation points toward the second answer and should be taken seriously:
+ordinary dependent oedema is maximal at the ankles, yet **ankle fat deposition is not a
+recognised phenomenon**, while typical fat distribution (hip, thigh, abdomen) does not
+follow gravity at all. If fluid volume per se were sufficient, chronic dependent oedema
+should fatten ankles. As far as I know it does not — which already argues that fluid alone
+is insufficient and the lymphatic limb is doing the work. **Check this before relying on
+it; it is an argument from my own absence of knowledge, which is weak evidence
+(guide R12).**
+
+### 3A.6 Local sodium storage, NFAT5, and lymphatics — the convergence
+
+The subcutaneous interstitium is where several threads already on the map physically meet,
+which is either a sign the map is right or a sign I am pattern-matching. Recorded so it can
+be checked rather than admired:
+
+Skin and subcutaneous tissue store **sodium bound to glycosaminoglycans, without
+commensurate water** — non-osmotic sodium storage, with ²³Na-MRI reporting elevated tissue
+sodium in obesity, diabetes and hypertension. That stored sodium creates **local
+hypertonicity**, which activates **NFAT5** ([guide.md §2.1](../guide.md)) in resident
+macrophages, which drives **VEGF-C** and **lymphangiogenesis** as a clearance response.
+
+So in one tissue: local tonicity → NFAT5 → lymphatic capacity → interstitial fluid
+clearance → (§3A.1) lipolysis-product removal and (§3A.4) adipose accumulation. The input
+layer and output layer of this project meet in the subcutaneous interstitium, with NFAT5
+as the hinge.
+
+**This is the most attractive idea in the file and therefore the most dangerous.** Every
+arrow is individually reported; the circuit is my assembly *(my inference, not shown)*. Its
+value is that it is falsifiable at the hinge: if tissue sodium does not predict local
+adiposity independently of BMI, the convergence is decorative.
 
 ---
 
@@ -224,6 +388,20 @@ Designed so that each separates H1a from H1c, or the compartments from each othe
 is the part that matters; the mechanism list above is only worth reading if one of these
 can be run.
 
+**T0 — Unilateral lymphoedema, affected versus contralateral limb. ★ now the primary test**
+*(added 2026-10-01; supersedes T3 as the project's lead design)*
+Paired within-subject comparison in unilateral lymphoedema:
+1. **Fat mass** of affected vs unaffected limb by DXA or MRI — adipose tissue specifically,
+   segmented from fluid, not limb volume or circumference, which conflate the two and are
+   the reason this may look answered when it is not.
+2. **Interstitial glycerol and NEFA** by adipose microdialysis in both limbs (§3A.1),
+   testing whether clearance failure makes lipolysis futile.
+3. **Venous-oedema comparison arm** (§3A.5) to separate fluid volume from lymph.
+→ Beats the insulin null outright: same person, same hormones, one limb affected (§3A.4).
+→ **Why it leads:** every other test here either uses cultured cells or carries a systemic
+confound. This one uses patients who already exist, techniques that already exist, and a
+control that cannot be argued with.
+
 **T1 — Swell without hormones.** *(H1a vs H1c, in vitro)*
 Swell hepatocytes and adipocytes by a route with no hormonal arm — mild hypotonicity, or
 osmolyte loading at constant extracellular tonicity — and measure DNL by ²H₂O or
@@ -277,12 +455,23 @@ Stated now, before searching, so the standard cannot drift later (guide R11):
 
 1. Chronic SIADH or primary polydipsia with **no** increase in fat mass on body
    composition → H1b dead, H1a wounded.
-2. Amlodipine-type oedema with no fat gain → extracellular water insufficient.
+2. ~~Amlodipine-type oedema with no fat gain → extracellular water insufficient.~~
+   **Revised 2026-10-01:** this kills only the *systemic* extracellular form (H1b). It does
+   **not** touch H1b′, since generalised oedema and sustained local interstitial expansion
+   in adipose tissue are different exposures. I had conflated them.
 3. Hypotonic or osmolyte-driven swelling **failing** to move tracer-measured DNL or
-   lipolysis in T1 → the causal core is gone; only H1c survives.
+   lipolysis in T1 → the causal core of H1a is gone; only H1c survives.
 4. Loop diuretic water loss with no fat loss → water removal insufficient.
 5. Every reported effect dissolving once insulin is controlled for → H1c wins; water is a
-   marker.
+   marker. **Note what §3A.4 does to this:** unilateral lymphoedema is the one setting where
+   this condition can actually be *tested* rather than merely feared.
+6. **For H1b′ specifically:** affected and contralateral limbs showing **equal adipose
+   mass** in long-standing unilateral lymphoedema, once fat is segmented from fluid → H1b′
+   dead. This is the cleanest death condition in the file, which is a point in H1b′'s favour
+   as a hypothesis regardless of how it resolves.
+7. **For H1b′:** fat gain occurring in lymphatic but **not** venous oedema → H1b′ survives
+   only in a reformulated version where the agent is lymph or lymphatic transport, and
+   "holding water" is a misdescription (§3A.5).
 
 A hypothesis without a stated death condition is not one. These are the conditions.
 
@@ -290,11 +479,21 @@ A hypothesis without a stated death condition is not one. These are the conditio
 
 ## 6. Honest statement of current evidential standing
 
-**There is, as far as I currently recall, no direct human evidence that water retention
-causes lipogenesis.** The hypothesis is presently assembled from individually-supported
-steps — volume-sensitive mTORC1, hepatocyte volume anabolism, SWELL1, AQP7, insulin
-antinatriuresis — none of which was measured as a chain, and several of which are
-contested or in the wrong cell type.
+~~There is, as far as I currently recall, no direct human evidence that water retention
+causes lipogenesis.~~
+
+**Revised 2026-10-01.** That was a consequence of the §1.1 error, not an independent
+assessment: having excluded extracellular water, I then found no evidence in the compartment
+I had left myself. **Unilateral lymphoedema (§3A.4) is human evidence that sustained local
+subcutaneous interstitial fluid accumulation is accompanied by local adipose accumulation**,
+with a within-subject control. Its weaknesses are real — direction of causation, whether the
+agent is water or lymph (§3A.5), and the measurement problem of separating fat from fluid
+(P8) — but it is not absent evidence, and I should not have said it was.
+
+For the **cellular** form (H1a), the original statement stands: the hypothesis is assembled
+from individually-supported steps — volume-sensitive mTORC1, hepatocyte volume anabolism,
+SWELL1, AQP7, insulin antinatriuresis — none measured as a chain, several contested or in
+the wrong cell type.
 
 That is **exactly the failure pattern [guide.md §2.3](../guide.md) warns about**: a
 sequence of true steps is a hypothesis, not a mechanism, until flux through the whole
@@ -332,17 +531,46 @@ Numbered so they can be marked wrong later. **No searches have been run yet.**
 **P2 and P3 are the ones I most expect to be right, and if they are, the project's job is
 to design the missing test rather than to keep reading.**
 
+### Added 2026-10-01, before searching the subcutaneous literature
+
+- **P8** — Local adipose excess in long-standing lymphoedema will be **well established
+  clinically** (and assumed by surgeons doing liposuction for it) while being **poorly
+  quantified mechanistically**: limb volume and circumference will be everywhere, adipose
+  mass segmented from fluid will be scarce, and tracer or microdialysis flux data close to
+  absent.
+- **P9** — The venous-versus-lymphatic comparison (§3A.5) will **not have been done** as a
+  fat-mass study, despite both patient populations being large and easy to find. If so, it
+  is the single most answerable open question the project has.
+- **P10** — Adipose tissue hypoxia (§3A.2) will be framed throughout the literature as a
+  *consequence* of adipocyte hypertrophy, with the interstitial-expansion-as-cause
+  direction unexamined.
+- **P11** — I expect to be **wrong** somewhere in §3A.4: the lymphoedema–adipose claim is
+  the kind of thing that is clinically "well known" and, when the primary sources are
+  actually read, rests on small series and surgical impression rather than controlled
+  measurement. I am flagging this *in advance* because the finding currently suits the
+  hypothesis too well, and §3A.4 is where I will be most tempted not to look hard.
+
 ---
 
 ## 8. First actions
 
-1. **T3 on existing data** — cheapest decisive step. Amlodipine versus thiazolidinedione
-   weight/fat-mass data already exist in trial literature. Could kill H1b this week.
-2. **T4 literature scan** — chronic hyponatremia with body-composition outcomes.
-   Tests P3; likely to find the gap rather than the answer.
-3. **§3.1 mTORC1 verification** — read the volume-sensitivity primary sources at figure
-   level, specifically whether hypo-osmotic *activation* is real or assumed by symmetry
-   from hyper-osmotic inhibition. Tests P5.
-4. **§3.4 AQP7** — resolve the knockout discrepancy. Tests P6.
-5. Counter-evidence pass (guide R12), run separately and recorded: search *against* the
-   hypothesis, including the opposite-direction claim in P7.
+Reordered 2026-10-01: the subcutaneous route now leads, because it is the only branch with
+a confound-free human design available.
+
+1. **§3A.4 / T0 — lymphoedema adipose mass.** Does the affected limb carry more *fat*, as
+   distinct from more fluid, measured by segmented imaging rather than volume? Tests P8 and
+   P11. Read the primary sources with the P11 warning in hand.
+2. **§3A.5 — venous versus lymphatic oedema.** Tests P9. If it is genuinely unasked, stop
+   reading and design it.
+3. **§3A.1 — adipose microdialysis** in oedematous tissue: interstitial glycerol and NEFA.
+   Does clearance failure make lipolysis futile? Technique exists; question may not have
+   been put.
+4. **T3 on existing data** — amlodipine versus thiazolidinedione fat mass. Now demoted:
+   it tests only systemic H1b, which §1.1's correction shows was never the interesting form.
+5. **T4 literature scan** — chronic hyponatremia with body-composition outcomes. Tests P3.
+6. **§3.1 mTORC1 verification** — whether hypo-osmotic *activation* is evidenced or assumed
+   by symmetry from hyper-osmotic inhibition. Tests P5.
+7. **§3.4 AQP7** — resolve the knockout discrepancy. Tests P6.
+8. Counter-evidence pass (guide R12), run separately and recorded: search *against* the
+   hypothesis, including P7's opposite-direction claim and the §3A.5 possibility that the
+   agent is lymph rather than water.

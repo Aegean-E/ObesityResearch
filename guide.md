@@ -172,22 +172,39 @@ swell them.**
 | Form | Where the water goes | Cell volume | Plasma osmolality |
 |---|---|---|---|
 | **Dilutional** (water without solute; SIADH, polydipsia) | everywhere, including intracellular | **swells** | ↓ |
-| **Isotonic** (sodium + water; oedema, saline, mineralocorticoid) | extracellular only | **unchanged** | normal |
+| **Isotonic, systemic** (sodium + water; generalised oedema, saline, mineralocorticoid) | extracellular only | **unchanged** | normal |
+| **Local interstitial** (lymphoedema, venous stasis — **inside adipose tissue itself**) | the adipocyte's own microenvironment | **unchanged** | normal |
 | **Osmolyte-driven** (sorbitol, inositol, taurine, betaine accumulate inside) | intracellular | **swells** | unchanged or ↑ |
 
-Three consequences I must carry:
+Four consequences I must carry:
 
 - **Oedema is not cell swelling.** A patient with swollen ankles from isotonic sodium
   retention has no swollen adipocytes. Any mechanism running through cell volume must
-  exclude this form, which means most clinically visible "water retention" is the wrong
-  exposure.
+  exclude this form.
+- ~~which means most clinically visible "water retention" is the wrong exposure.~~
+  **Corrected 2026-10-01 (R17): this does not follow, and the error nearly cost the project
+  its best evidence.** "Not cell swelling" does not mean "not an exposure" — it means *a
+  different exposure with different mechanisms.* In **subcutaneous adipose tissue the
+  interstitium is the adipocyte's immediate microenvironment**, so fluid there acts on the
+  cell without entering it: through tissue mechanics, diffusion distance and hypoxia, and
+  through failure to clear the glycerol and NEFA that lipolysis releases — which can make
+  lipolysis **futile while its machinery runs normally**. Full treatment in
+  [H1 §3A](hypotheses/H1-water-retention-lipogenesis.md). **The error pattern: I used a
+  correct mechanism as a filter on which exposures could count, instead of asking what else
+  the exposure could do. A good mechanism made me stop enumerating.**
+- **Local beats systemic for testing, because it localises the confound away.** Insulin
+  retains water and stores fat systemically, so no whole-body observation can separate them.
+  Unilateral oedema can: same person, same hormones, one limb affected, the other its own
+  control. Prefer designs where the exposure is local.
 - **A cell can hold water at normal extracellular tonicity** by accumulating organic
   osmolytes — the NFAT5 programme of §2.1. So "holding water" intracellularly does **not**
   require hypotonicity, and this is the route by which systemic hyperosmolality and
   cellular water gain could coexist rather than conflict.
-- **Total body water, bioimpedance, and weight change do not distinguish these.** A
-  measurement that cannot separate intracellular from extracellular water cannot test a
-  cell-volume hypothesis. Name the compartment and the method, or the finding is uncoded.
+- **Total body water, bioimpedance, weight, and limb volume do not distinguish any of
+  these.** A measurement that cannot separate intracellular from extracellular water, or
+  **adipose mass from fluid**, cannot test these hypotheses — and in oedematous tissue that
+  conflation is the single commonest way a question looks answered when it is not. Name the
+  compartment and the method, or the finding is uncoded.
 
 ---
 
@@ -484,46 +501,57 @@ Unanswered, ordered by how much they would change the map. The live queue is
 **[H1 §4 (discriminating tests) and §8 (first actions)](hypotheses/H1-water-retention-lipogenesis.md)**;
 what follows are the standing questions that outlive any one hypothesis.
 
-**Q1 — Does oedema without fat gain exist?** The cheapest decisive test in the project.
-Dihydropyridine-induced oedema versus thiazolidinedione-induced oedema, in trial data that
-already exists. If extracellular water gain alone does not produce fat gain, the
-extracellular form of H1 is dead and the hypothesis is forced onto cell volume (§1.5).
+**Q1 — In long-standing unilateral lymphoedema, does the affected limb carry more *fat*
+than the contralateral limb?** The project's lead question. Requires adipose mass segmented
+from fluid by imaging — limb volume and circumference conflate the two and are why this may
+look settled when it is not (§1.5). Its power is the within-subject control: one person, one
+insulin concentration, one affected limb (H1 §3A.4).
 
-**Q2 — Does chronic dilutional water retention raise fat mass?** SIADH and primary
+**Q2 — Is it the water or the lymph?** Chronic venous insufficiency and chronic lymphoedema
+both expand subcutaneous interstitium; only the second involves lymph stasis. If both cause
+local fat gain, the agent is fluid volume; if only lymphoedema does, "holding water" is a
+misdescription of the mechanism (H1 §3A.5). Likely unasked, and highly answerable.
+
+**Q3 — Does oedema without fat gain exist?** Dihydropyridine-induced oedema versus
+thiazolidinedione-induced oedema, in trial data that already exists. Note this tests only
+the *systemic* extracellular form, which §1.5's correction shows was never the interesting
+one.
+
+**Q4 — Does chronic dilutional water retention raise fat mass?** SIADH and primary
 polydipsia are years-long natural experiments. Needs **body composition**, not weight —
 weight change in hyponatremia is mostly water and tells us nothing. I expect this to be
 unasked rather than answered.
 
-**Q3 — Is there any human evidence that plasma tonicity, as opposed to total osmolality,
+**Q5 — Is there any human evidence that plasma tonicity, as opposed to total osmolality,
 tracks adiposity?** Requires solute decomposition (§1.2), eGFR and glycaemia control
 (R10), and a reverse-causality answer (R9). If the association lives entirely in urea, the
 cell-volume premise is dead and should be declared dead.
 
-**Q4 — Does LRRC8A/SWELL1 in adipocytes hold up at figure level?** (§2.4) Verify the
+**Q6 — Does LRRC8A/SWELL1 in adipocytes hold up at figure level?** (§2.4) Verify the
 insulin-signalling dependence, the knockout phenotype, and the direction — including the
 apparent paradox that VRAC's canonical role is to shrink the cell back.
 
-**Q5 — Has the mannitol-vs-urea discrimination (§1.2) ever actually been run on
+**Q7 — Has the mannitol-vs-urea discrimination (§1.2) ever actually been run on
 adipogenesis or DNL?** If yes, it may settle the mechanism directly. If no, it is the
 experiment this project should be designing.
 
-**Q4 — Does osmotic stress change adipogenesis in vitro, and in which direction?** I
+**Q8 — Does osmotic stress change adipogenesis in vitro, and in which direction?** I
 believe the literature is genuinely contradictory here. Resolve it by **stratifying on
 absolute final medium osmolality (R7) and on solute identity**, rather than by pooling —
 my working suspicion is that the apparent contradiction is a dose and solute artefact.
 *(My inference, not shown.)*
 
-**Q5 — Do polyol flux and DNL actually compete for NADPH?** (§2.2) Sharp prediction,
+**Q9 — Do polyol flux and DNL actually compete for NADPH?** (§2.2) Sharp prediction,
 clear refutation condition. Look for both.
 
-**Q6 — Where is the osmolality → adipogenesis chain in §2.3 quantitatively broken?**
+**Q10 — Where is the osmolality → adipogenesis chain in §2.3 quantitatively broken?**
 Every step has support; the chain has none. Identify the weakest link and the flux
 measurement that would test it.
 
-**Q7 — Is the sodium–adiposity association separable from palatability?** (§2.6) Until
+**Q11 — Is the sodium–adiposity association separable from palatability?** (§2.6) Until
 taste and energy intake are controlled, no osmotic reading of it is admissible.
 
-**Q8 — Does the swelling-anabolism rule apply to adipocytes at all?** (§2.5) Resolve
+**Q12 — Does the swelling-anabolism rule apply to adipocytes at all?** (§2.5) Resolve
 the liver/adipocyte sign conflict, or establish that cytosolic water and cell volume
 come apart in a lipid-laden cell.
 
