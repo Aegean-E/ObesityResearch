@@ -195,7 +195,14 @@ Four consequences I must carry:
 - **Local beats systemic for testing, because it localises the confound away.** Insulin
   retains water and stores fat systemically, so no whole-body observation can separate them.
   Unilateral oedema can: same person, same hormones, one limb affected, the other its own
-  control. Prefer designs where the exposure is local.
+  control. Prefer designs where the exposure is local — but **verify the "unaffected" side is
+  unaffected.** In breast-cancer-related lymphoedema the contralateral arm also shows
+  lymphatic dysfunction, and limbs are often sampled by different methods; I asserted this
+  control was unarguable and it is not (H1 §3A.4).
+- **Lymph is isosmotic to plasma, even on a high-salt diet.** It differs from plasma in
+  protein (~50% in skin and muscle) and lipid, **not in tonicity**. So the lymphatic route
+  and the osmolality route are **separate channels** — lymph carries lipid signals, not
+  osmotic ones. Do not build circuits that join them without new evidence (H1 §3A.6).
 - **A cell can hold water at normal extracellular tonicity** by accumulating organic
   osmolytes — the NFAT5 programme of §2.1. So "holding water" intracellularly does **not**
   require hypotonicity, and this is the route by which systemic hyperosmolality and

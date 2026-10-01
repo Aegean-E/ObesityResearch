@@ -1,7 +1,34 @@
 # H1 — Water retention shifts net lipid flux toward storage
 
-**Status:** open, unverified · opened 2026-10-01 · the project's central hypothesis
+**Status:** **partly refuted and reformulated** after the first literature session ·
+opened 2026-10-01 · the project's central hypothesis
 **Governed by** [guide.md](../guide.md). Where this file and the guide conflict, the guide wins.
+
+> ## ⚠ Verdict after session 1 — read before using this file
+> Evidence: [sessions/2026-10-01-lymph-subcutaneous.md](../sessions/2026-10-01-lymph-subcutaneous.md)
+>
+> **H1 as stated is not supported, and its second half is contradicted.** In the only human
+> study to measure it, adipose tissue in lymphoedematous limbs shows **higher** lipolysis
+> (basal and stimulated, p<0.05 to p<0.001) and **impaired** re-esterification — the
+> opposite direction to §3A.1. Lipogenic genes were essentially unmoved and DNL flux was
+> never measured. Adipocytes were **not** larger.
+>
+> **What survives, reformulated — call it H1b″:**
+>
+> > Impaired lymphatic clearance exposes adipose progenitors to **lymph-borne free fatty
+> > acids**, which drive adipogenesis via PPARγ. **The water is the vehicle, not the agent.**
+>
+> The evidence for this is good: isolated lymphoedema adipose cells are *normal* in every
+> respect tested, while the **fluid** from that tissue out-performs serum at driving
+> adipogenesis and carries **~3× the free fatty acid**. In mice the adipogenic fraction of
+> lymph is lipid (oleic, α-linolenic, palmitoleic, palmitic), and normal lymph is as
+> adipogenic as mutant lymph — so the lesion is **ectopic exposure, not altered content**.
+> *Prox1* haploinsufficiency causes adult-onset obesity through lymph leakage, and
+> **restoring lymphatic function reverses it.**
+>
+> **So §3A.5's rival reading beat the water reading.** "Holding water" is a misdescription;
+> "failing to clear lymph" is the mechanism. Sections below are left standing with their
+> corrections marked, per R17 — do not read §3A.1 or §3A.6 as current.
 
 ---
 
@@ -138,7 +165,18 @@ interstitium**, with no change in cell volume required. Three are clearance/tran
 arguments and one is mechanical; together they make H1b′ the strongest-supported form of
 the hypothesis, mostly because of §3A.4.
 
-### 3A.1 Clearance failure makes lipolysis futile ★ the tissue-level AQP7
+### 3A.1 Clearance failure makes lipolysis futile ~~★ the tissue-level AQP7~~ ✗ CONTRADICTED
+
+> **Contradicted in direction, 2026-10-01.** Human lymphoedema adipose tissue shows
+> **higher** glycerol and FFA release (basal and isoproterenol-stimulated) and a
+> **dramatically elevated basal FFA:glycerol ratio**, which the authors read as **impaired**
+> re-esterification. This mechanism predicted *more* re-esterification. Partial defence: the
+> measurements are ex vivo, and explant incubation washes products into the medium, removing
+> the very clearance failure at issue — so this indexes intrinsic re-esterification capacity,
+> not in vivo futile cycling. But that capacity being *lower* still argues against the
+> mechanism. **Downgraded, not salvaged.** The microdialysis test below remains the way to
+> settle it, because it is the only design that preserves the in vivo clearance context.
+> Text kept per R17.
 
 This is the same logic as [§3.4](#34-aqp7--water-and-glycerol-through-the-same-protein) one
 scale up, and it may be the cleanest answer to the "inhibits lipolysis" half of the
@@ -221,6 +259,25 @@ That makes unilateral lymphoedema the one available setting where H1b′ is test
 its hardest rival using humans who already exist. Everything else in this file is either
 in vitro or confounded.
 
+> **Correction, 2026-10-01 — the control is not as clean as I claimed.** I wrote that this
+> control "cannot be argued with." It can. The authors of the human study report that the
+> **"healthy" contralateral arm of lymphoedema patients also shows signs of lymphatic
+> dysfunction** — unsurprising in breast-cancer-related lymphoedema with bilateral nodal and
+> systemic involvement, but the opposite of what I asserted. They also could not obtain
+> paired samples for most analyses, and **sampled the two limbs differently** (liposuction
+> affected, needle biopsy contralateral), an asymmetry that could generate an adipocyte-size
+> difference in either direction by itself.
+>
+> The logic of the design still holds, and it remains the best available. My **confidence in
+> it was unearned**, and rebuilding it needs: primary or non-oncological unilateral
+> lymphoedema, **matched sampling method** on both sides, or a different control.
+>
+> **Also note:** causation here is genuinely bidirectional (obesity impairs lymphatic
+> function; obesity-induced lymphoedema is near-universal above BMI ~60), so human
+> cross-sectional data cannot establish direction at all. The causal weight rests on the
+> mouse genetics and on the **lymphatic-restoration rescue**, which is the strongest design
+> in this area.
+
 **Animal support:** lymphatic insufficiency models — *Prox1* haploinsufficiency most
 notably — have been reported to produce **adult-onset obesity**, with adipose accumulating
 around leaky lymphatic vessels. If that holds, it is lymph-driven adipogenesis in vivo,
@@ -277,6 +334,25 @@ as the hinge.
 arrow is individually reported; the circuit is my assembly *(my inference, not shown)*. Its
 value is that it is falsifiable at the hinge: if tissue sodium does not predict local
 adiposity independently of BMI, the convergence is decorative.
+
+> **Downgraded 2026-10-01 — I was right to call it dangerous.** Three problems:
+>
+> 1. **Lymph is isosmotic to plasma, even on a high-salt diet.** Skin-draining lymph
+>    osmolality and Na⁺ match low-salt controls, and lymph differs from plasma in protein
+>    (~50% in skin and muscle) and lipid, **not in tonicity**. So **lymph carries no osmotic
+>    signal**, and the lymphatic and osmolality routes are separate channels rather than one
+>    circuit. The convergence as drawn does not exist.
+> 2. **The interstitial-hypertonicity premise is itself contested** — the critique being that
+>    inferring osmotically inactive storage from a raised (Na+K)/H₂O ratio ignores other
+>    osmolytes, and that isosmotic skin lymph argues against sustained local hypertonicity.
+> 3. **The arrow points the wrong way for adipogenesis.** The NFAT5 → VEGF-C →
+>    lymphangiogenesis pathway is real, but its functional output is **+26% lymph flow**,
+>    expanded lymphatic network and faster collecting-vessel contraction. If stasis is what
+>    drives adipose accumulation, high salt should be **anti**-adipogenic through this route.
+>    Recorded as **C-03**. A null result also exists: engineered skin lymphangiogenesis did
+>    not affect blood pressure in salt-sensitive hypertension models.
+>
+> Keep NFAT5 on the map for §2.1/§2.2 reasons. **Do not keep this circuit.**
 
 ---
 
@@ -549,6 +625,19 @@ to design the missing test rather than to keep reading.**
   actually read, rests on small series and surgical impression rather than controlled
   measurement. I am flagging this *in advance* because the finding currently suits the
   hypothesis too well, and §3A.4 is where I will be most tempted not to look hard.
+
+### Scored 2026-10-01
+
+| | Outcome |
+|---|---|
+| **P8** | ✅ **Correct** — large surgical literature; the one metabolically serious study is self-described as hypothesis-generating, n=11, **no DNL flux at all** |
+| **P9** | ✅ **Correct so far** — the venous/lymphatic comparison exists only as ultrasonography distinguishing them by **fluid** (echo-free space, echogenicity), never by adipose mass as an outcome |
+| **P10** | ⬜ untested |
+| **P11** | ✅ **Correct, and the error was worse than predicted** — adipocyte hypertrophy in human lymphoedema is not merely weakly supported but **contradicted** (88.8 ± 5.6 vs 97.4 ± 3.3 µm, NS, with *more* large adipocytes in healthy tissue), while another paper claims the opposite in its title. Logged as **C-02** |
+
+**P11 earned its place.** Writing down in advance that I expected to be wrong, and where, is
+why I went after the measurement instead of accepting the clinical consensus — and the
+measurement is where the surprise was. Keep doing this.
 
 ---
 
