@@ -15,6 +15,25 @@ everything needed to start is here, and nothing is assumed from earlier work.
 cell — act **causally** on how much fat the body builds and keeps? If it does, through
 which molecular step, at what dose, and with what effect size?
 
+**The central hypothesis** this is organised around — see
+[hypotheses/H1-water-retention-lipogenesis.md](hypotheses/H1-water-retention-lipogenesis.md):
+
+> When the body holds water, net lipid flux shifts toward storage — lipogenesis up,
+> lipolysis down.
+
+Two things about H1 shape everything below. First, it only becomes testable once
+"holds water" is resolved into a **compartment** (§1.5), because intracellular and
+extracellular water gain imply opposite mechanisms. Second, its serious rival is not
+"no effect" but **common cause**: insulin alone retains water *and* drives storage, so
+every correlation between the two is pre-explained and only interventions that move water
+without moving insulin can discriminate.
+
+Note also that H1 runs **opposite in sign** to the dehydration-survival logic in §2.2–2.3,
+where water *scarcity* drives fat storage because fat banks metabolic water. That conflict
+is live and recorded as C-01 in the H1 file; §1.5 and H1 §2.2 sketch how the two might be
+sequential rather than contradictory, but that reconciliation is unverified construction,
+not a finding.
+
 The four title terms split cleanly into two layers, and keeping them apart is most of
 the discipline this file exists to enforce:
 
@@ -144,6 +163,32 @@ contested currency, and anything else that drains it competes with DNL.
    confounded by SCD1 activity and by dietary palmitate intake. Useful for ranking, not
    for absolute flux.
 
+### 1.5 "Holding water" — which compartment
+
+The complement of §1.2, and just as load-bearing. §1.2 said a rise in osmolality carried by
+**urea does not shrink cells**. The mirror statement: **water retained with sodium does not
+swell them.**
+
+| Form | Where the water goes | Cell volume | Plasma osmolality |
+|---|---|---|---|
+| **Dilutional** (water without solute; SIADH, polydipsia) | everywhere, including intracellular | **swells** | ↓ |
+| **Isotonic** (sodium + water; oedema, saline, mineralocorticoid) | extracellular only | **unchanged** | normal |
+| **Osmolyte-driven** (sorbitol, inositol, taurine, betaine accumulate inside) | intracellular | **swells** | unchanged or ↑ |
+
+Three consequences I must carry:
+
+- **Oedema is not cell swelling.** A patient with swollen ankles from isotonic sodium
+  retention has no swollen adipocytes. Any mechanism running through cell volume must
+  exclude this form, which means most clinically visible "water retention" is the wrong
+  exposure.
+- **A cell can hold water at normal extracellular tonicity** by accumulating organic
+  osmolytes — the NFAT5 programme of §2.1. So "holding water" intracellularly does **not**
+  require hypotonicity, and this is the route by which systemic hyperosmolality and
+  cellular water gain could coexist rather than conflict.
+- **Total body water, bioimpedance, and weight change do not distinguish these.** A
+  measurement that cannot separate intracellular from extracellular water cannot test a
+  cell-volume hypothesis. Name the compartment and the method, or the finding is uncoded.
+
 ---
 
 ## 2. The mechanistic map — where the two layers could actually meet
@@ -263,6 +308,28 @@ intake. At least three mechanisms compete, and they are not mutually exclusive:
 Mechanism 3 is the control condition for mechanisms 1 and 2. An osmolality–adiposity
 association that has not been tested against taste and energy intake is not yet evidence
 of an osmotic mechanism.
+
+### 2.7 The storage direction — nodes that do both halves of H1
+
+Two candidates belong on the map because, unlike everything above, each produces **both**
+halves of H1 — synthesis up *and* breakdown down — from a single node. Full treatment in
+[the H1 file §3](hypotheses/H1-water-retention-lipogenesis.md); the map entries:
+
+- **mTORC1.** → SREBP-1c → FASN/ACC (lipogenesis up), and suppresses ATGL (lipolysis down).
+  Reported volume-sensitive: inhibited by hyperosmotic shrinkage, activated by swelling and
+  by the Na-dependent amino-acid uptake that itself swells the cell. If H1 is true, this is
+  the most likely transducer. Check whether the hypo-osmotic *activation* arm is actually
+  evidenced or merely assumed by symmetry from the inhibition arm.
+- **AQP7.** The adipocyte **aquaglyceroporin** — one protein channelling both water and
+  the glycerol that lipolysis releases. The most literal water/lipid coupling available:
+  impaired glycerol export traps glycerol, feeds glycerol kinase → glycerol-3-phosphate →
+  re-esterification, making lipolysis **futile** and raising net storage without touching
+  the lipolytic machinery. Knockout obesity phenotype is **contested** — resolve before use.
+
+Counter-entry, recorded so it is not mistaken for support: **AMPK.** Shrinkage activates it
+and it inhibits ACC, which fits. But it is also reported antilipolytic in adipocytes
+(HSL Ser565), so shrinkage would suppress lipolysis too — breaking H1's second half.
+AMPK is a tension in this map, not a pillar.
 
 ---
 
@@ -413,19 +480,30 @@ the failure mode R14 exists to prevent.
 
 ## 6. Opening questions
 
-Unanswered, ordered by how much they would change the map. Q1–Q3 are the ones that could
-collapse or confirm the whole premise.
+Unanswered, ordered by how much they would change the map. The live queue is
+**[H1 §4 (discriminating tests) and §8 (first actions)](hypotheses/H1-water-retention-lipogenesis.md)**;
+what follows are the standing questions that outlive any one hypothesis.
 
-**Q1 — Is there any human evidence that plasma tonicity, as opposed to total osmolality,
+**Q1 — Does oedema without fat gain exist?** The cheapest decisive test in the project.
+Dihydropyridine-induced oedema versus thiazolidinedione-induced oedema, in trial data that
+already exists. If extracellular water gain alone does not produce fat gain, the
+extracellular form of H1 is dead and the hypothesis is forced onto cell volume (§1.5).
+
+**Q2 — Does chronic dilutional water retention raise fat mass?** SIADH and primary
+polydipsia are years-long natural experiments. Needs **body composition**, not weight —
+weight change in hyponatremia is mostly water and tells us nothing. I expect this to be
+unasked rather than answered.
+
+**Q3 — Is there any human evidence that plasma tonicity, as opposed to total osmolality,
 tracks adiposity?** Requires solute decomposition (§1.2), eGFR and glycaemia control
 (R10), and a reverse-causality answer (R9). If the association lives entirely in urea, the
 cell-volume premise is dead and should be declared dead.
 
-**Q2 — Does LRRC8A/SWELL1 in adipocytes hold up at figure level?** (§2.4) Highest-value
-single source-check available. Verify the insulin-signalling dependence, the knockout
-phenotype, and the direction.
+**Q4 — Does LRRC8A/SWELL1 in adipocytes hold up at figure level?** (§2.4) Verify the
+insulin-signalling dependence, the knockout phenotype, and the direction — including the
+apparent paradox that VRAC's canonical role is to shrink the cell back.
 
-**Q3 — Has the mannitol-vs-urea discrimination (§1.2) ever actually been run on
+**Q5 — Has the mannitol-vs-urea discrimination (§1.2) ever actually been run on
 adipogenesis or DNL?** If yes, it may settle the mechanism directly. If no, it is the
 experiment this project should be designing.
 
@@ -459,6 +537,7 @@ guessed in advance. Current convention:
 | What | Where |
 |---|---|
 | This guide | `guide.md` |
+| Hypothesis cards | `hypotheses/` — one file per hypothesis: claim stated falsifiably, mechanism candidates, discriminating tests, **death conditions**, predictions written before searching |
 | Session logs | `sessions/` — one file per session: predictions → work → counter-evidence pass → audit |
 | Verified quantitative claims | `claims.md` — one row per claim: value, units, model system, design and exposure coding, causal code (R15), counter-evidence column (never left empty) |
 | Analysis scripts and outputs | `analysis/` — plan in the docstring before data (R13), results to CSV |
