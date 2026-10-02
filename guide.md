@@ -333,6 +333,24 @@ Mechanism 3 is the control condition for mechanisms 1 and 2. An osmolality–adi
 association that has not been tested against taste and energy intake is not yet evidence
 of an osmotic mechanism.
 
+### 2.9 Adipose senescence (M9) — the polyol pathway's real route
+
+Added 2026-10-02 from [H3](hypotheses/H3-polyol-osmolyte-mtor.md), replacing the osmotic reading
+of §2.2. **Aldose reductase is raised in obese human and mouse adipose tissue, and deleting or
+blocking it reduces diet-induced obesity, attenuates senescence markers and increases lipolysis.**
+The route is **cellular senescence**, not osmotic swelling.
+
+Every osmotic step failed independently: sorbitol is **substituted** for taurine (−31%) and
+myo-inositol (−37%) rather than accumulated, the pathway carries **<3% of glucose at
+normoglycaemia** (~30% in hyperglycaemia), its osmotically loaded tissues are lens, nerve and
+renal medulla rather than adipose, and **mTOR's response to swelling is to expel osmolytes, not to
+signal growth**. Fructose reaches lipogenesis via **ChREBP**, not mTORC1→SREBP-1c, which is the
+glucose route.
+
+**Consequence:** §2.2's polyol material stands as biochemistry but its osmotic interpretation does
+not. The NADPH "competition" in §2.2 is also wrong — NADPH status **co-gates** both pathways rather
+than making them rivals.
+
 ### 2.8 The re-esterification gate (M8) — the best-supported mechanism in the project
 
 Added 2026-10-02 from [H2](hypotheses/H2-depletion-gates-lipolysis.md). **Hydrolysis and

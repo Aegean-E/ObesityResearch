@@ -168,6 +168,24 @@ measurably, at no cost and no risk — and nobody has shown that moving it chang
 **Benfotiamine** is listed within this class; no randomised polyol-pathway trial retrieved this
 session. **Open item.**
 
+> ### ★ UPGRADED 2026-10-02 — epalrestat now has an adipose rationale with a causal obesity result
+>
+> From [H3 §4.0](hypotheses/H3-polyol-osmolyte-mtor.md): **aldose reductase is increased in the
+> adipose tissue of humans and mice with obesity**, and **genetic deletion or pharmacological
+> blockade reduces diet-induced obesity, attenuates adipose senescence, and increases lipolysis.**
+> Mechanism is **cellular senescence**, not the osmotic route — every osmotic step failed
+> independently.
+>
+> **This makes D1 the most interesting entry in the register**, and the only one where the target
+> has a causal animal result with an **obesity endpoint** rather than a surrogate. It remains a
+> neuropathy drug with no human adiposity data, and the §K pattern (hard endpoints fail where
+> biomarkers move) applies to it as much as to anything else. But the gap it has to cross is now
+> one step, not three.
+>
+> **Open:** whether weight or fat mass has ever been reported for epalrestat in its three markets,
+> where it has been used for years in large diabetic populations. A side observation may exist.
+> [Thiagarajan et al., Obesity 2022](https://onlinelibrary.wiley.com/doi/abs/10.1002/oby.23496)
+
 ---
 
 ## E — Agents that move fat but not these mechanisms
