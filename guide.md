@@ -333,6 +333,27 @@ Mechanism 3 is the control condition for mechanisms 1 and 2. An osmolality–adi
 association that has not been tested against taste and energy intake is not yet evidence
 of an osmotic mechanism.
 
+### 2.8 The re-esterification gate (M8) — the best-supported mechanism in the project
+
+Added 2026-10-02 from [H2](hypotheses/H2-depletion-gates-lipolysis.md). **Hydrolysis and
+re-esterification run simultaneously, so net lipolysis is a margin, not a switch.** Adipocytes
+lack glycerol kinase, so re-esterification needs **glycerol-3-phosphate** from glucose or from
+**glyceroneogenesis** (PEPCK-C rate-limiting, and *induced by fasting*, defending the pool
+exactly when it would run down).
+
+Three depletable control points: **G3P** (substrate), **G0S2** (an ATGL-inhibiting protein that
+adipose tissue degrades on fasting), and **adipose glycogen** (which has a set point, and whose
+enhancement *decreases* triglyceride mobilisation).
+
+**Why it outranks M1–M7:** adipose **PEPCK-C overexpression alone produces obesity** without
+insulin resistance — the only **sufficiency** result in this project. **Leptin** opens the gate
+(PEPCK nitration); **thiazolidinediones** close it (PEPCK induction, confirmed in human adipose)
+and that, not fluid, is why they cause fat gain.
+
+**The consequence for everything else here:** a therapy that raises hydrolysis without closing
+re-esterification changes nothing. The organism can hold fat while hydrolysing continuously, just
+by putting the products back.
+
 ### 2.7 The storage direction — nodes that do both halves of H1
 
 Two candidates belong on the map because, unlike everything above, each produces **both**
@@ -474,6 +495,14 @@ infiltration precisely to avoid this. **R14's "figure level" includes the method
 For this project specifically, always ask: liposuction aspirate or surgical biopsy? Cannulated
 lymph or tissue homogenate? Freeze–thawed? Ex vivo incubation that washes away the very
 gradient under study?
+
+**R22 — A counter-evidence entry must also record what the finding supports.** "Evidence
+against H1" is not a complete description of a datum. The instance: I filed higher lipolysis and
+an elevated FFA:glycerol ratio in lymphoedema as two separate contradictions, and never asked
+what they were evidence *for* — they are one coherent finding about an open re-esterification
+gate (H2 §4.6). A refuted hypothesis does not make its data inert. Every row in
+[claims.md](claims.md) marked as counter-evidence gets a second question: **if not this, then
+what?**
 
 **R21 — Name the tissue before claiming the pathway.** A correct mechanism applied in the
 wrong compartment is the error this project makes most. Twice now: the lymphatic clearance
