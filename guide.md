@@ -720,6 +720,7 @@ guessed in advance. Current convention:
 
 | What | Where |
 |---|---|
+| **Verdict so far** | `README.md` — what the project has established and refuted. The entry point; this guide is the constitution, README is the state |
 | This guide | `guide.md` |
 | Hypothesis cards | `hypotheses/` — one file per hypothesis: claim stated falsifiably, mechanism candidates, discriminating tests, **death conditions**, predictions written before searching |
 | Subject observations | `observations/Gxx-*.md` — n-of-1 self-observations, **quoted unaltered**, coded **D8/E1** |
