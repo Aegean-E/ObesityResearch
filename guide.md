@@ -452,7 +452,10 @@ supporting evidence does not end the question. Run explicit null/failed-replicat
 searches. A session does not close without this pass. If nothing was found, record the
 queries and the date — "searched, found nothing" is a result.
 
-**R13 — Compute rather than cite, where the data allow it.** If open data (NHANES, WHO,
+**R13 — Compute rather than cite, where the data allow it.** *(Vindicated 2026-10-02: four
+sessions of reading produced hypotheses; one afternoon of NHANES produced an answer. The
+container can fetch NHANES over HTTPS and `pip install pandas statsmodels` works — so "no data"
+was never the reason this project was reading instead of computing.)* If open data (NHANES, WHO,
 FAO, World Bank) can answer it, calculate it instead of quoting someone. Write the
 analysis plan — single primary outcome, pre-specified interpretation rule, stated
 limitations — into the script's docstring **before touching the data**. Changing the
@@ -598,10 +601,18 @@ polydipsia are years-long natural experiments. Needs **body composition**, not w
 weight change in hyponatremia is mostly water and tells us nothing. I expect this to be
 unasked rather than answered.
 
-**Q5 — Is there any human evidence that plasma tonicity, as opposed to total osmolality,
-tracks adiposity?** Requires solute decomposition (§1.2), eGFR and glycaemia control
-(R10), and a reverse-causality answer (R9). If the association lives entirely in urea, the
-cell-volume premise is dead and should be declared dead.
+**Q5 — ✅ ANSWERED 2026-10-02, and the answer is NO.** Our own computation
+([VA-01](analysis/VA01-REPORT.md)): calculated plasma osmolarity decomposed into effective
+(2Na + glu/18) and urea components, against **DXA total body fat**, n=5,107 adults across two
+independent NHANES cycles, adjusted for age, sex, ethnicity, eGFR and HbA1c. **Both components
+null in both cycles**, bounded at ~0.08 SD of body fat per SD of tonicity, direction negative
+where there is any hint. Not rescued by DXA-over-BMI, by sex, by renal function, or by excluding
+hypertriglyceridemic samples. 1 of 36 terms reached p<0.05 — exactly multiplicity — and it does
+not replicate.
+**Still open in one form only:** this was *calculated osmolarity*, not **measured osmolality**
+(R1). NHANES has no osmometry, so an osmometer might see what a three-solute formula cannot.
+**Consequence:** systemic plasma osmolarity is not the exposure. What survives is intracellular
+and local-tissue water (§1.5), which plasma does not index.
 
 **Q6 — Does LRRC8A/SWELL1 in adipocytes hold up at figure level?** (§2.4) Verify the
 insulin-signalling dependence, the knockout phenotype, and the direction — including the
@@ -646,7 +657,7 @@ guessed in advance. Current convention:
 | Interventions | `interventions.md` — agents evaluated by evidence quality against a named mechanism. Evaluation only, never a protocol |
 | Session logs | `sessions/` — one file per session: predictions → work → counter-evidence pass → audit |
 | Verified quantitative claims | `claims.md` — one row per claim: value, units, model system, design and exposure coding, causal code (R15), counter-evidence column (never left empty) |
-| Analysis scripts and outputs | `analysis/` — plan in the docstring before data (R13), results to CSV |
+| Analysis scripts and outputs | `analysis/` — plan in the docstring **before** data (R13), results to CSV, one `VAxx-REPORT.md` per analysis |
 | Known gaps | `gaps.md` — what is missing, why it matters, where it could come from |
 
 Conventions: units on every number. Confidence intervals as `[low, high]`. Relative links

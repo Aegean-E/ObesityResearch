@@ -78,6 +78,16 @@ Predicts retention ranked by molecular radius; testable with one multiplex panel
 | E3 | Inflammation follows: M2-like macrophages elevated by stage II; TNF and IL6 up stages II–III, minimal stage I | — | Human | D3/E1 | same |
 | E4 | **Operational:** biopsies taken by surgical dissection **before** tumescent infiltration, *en bloc*, superficial + deep — deliberately avoiding liposuction-damaged tissue | — | — | — | same |
 
+## F — Our own computation (D1/E1, the project's own data)
+
+| # | Claim | Value | Model system | D/E | Causal | Counter-evidence | Source |
+|---|---|---|---|---|---|---|---|
+| **F1** | **Effective calculated osmolarity (tonicity) is NOT associated with DXA body fat %** | β **−0.048** [−0.127,+0.030] p=0.23 (2017–18, n=2,119); β **−0.010** [−0.075,+0.055] p=0.76 (2013–14, n=2,988). Per SD: −0.25 [−0.66,+0.16] and −0.04 [−0.32,+0.23] fat % points | Human, NHANES, adults 20–59, DXA | **D1/E1** | — (null) | Calculated osmolarity ≠ measured osmolality (R1); cross-sectional; approximate survey variance | [VA-01](analysis/VA01-REPORT.md) |
+| **F2** | The urea (ineffective) component is also not associated | β −0.183 p=0.098 (J); −0.078 p=0.57 (H) | same | D1/E1 | — | One sensitivity model reached p=0.042 in one cycle only; 1 of 36 terms, does not replicate | same |
+| **F3** | **Using DXA fat instead of BMI does not change the answer** | BMI models also null, both cycles | same | D1/E1 | — | — | same |
+| **F4** | **No sex asymmetry**, against repeated expectation from the AVP-oestrogen literature | Women and men both null; sign flips between cycles | same | D1/E1 | — | — | same |
+| **F5** | Descriptive, as pipeline sanity check | calc osmolarity **290.2 / 289.1 mOsm/L**; body fat **33.1% / 33.1%**; BMI **29.0 / 28.7**; eGFR **103 / 102** | same | D1/E1 | — | — | same |
+
 ---
 
 ## Open contradictions
@@ -86,6 +96,7 @@ Predicts retention ranked by molecular radius; testable with one multiplex panel
 |---|---|---|
 | **C-01** | Cell-volume anabolism needs water **gain** to drive storage; dehydration-survival logic needs water **loss** (fat banks metabolic water). Both cannot dominate | open |
 | **C-02** | ~~Adipocyte size in human lymphoedema~~ | ✅ **RESOLVED 2026-10-02** — hypertrophy is **stage-dependent** (E1): absent at stage I, present from stage II. Two studies sampling different stage mixes disagree exactly as observed, with neither wrong. Compounded by sampling method (liposuction aspirate vs surgical biopsy, E4). **Any future size claim must state stage and sampling method** |
+| **C-04** | [guide §2.6](guide.md)'s sodium–adiposity thread vs **F1**: the sodium-bearing term of plasma tonicity shows no association with measured body fat. Intake is not plasma concentration, so this does not refute the dietary literature — but it removes the simplest osmotic bridge and strengthens the palatability explanation §2.6 already named as its control | open |
 | **C-03** | If lymph **stasis** drives adipose accumulation (A2, A4, A8) and high salt **increases** lymph flow (B6), high salt should be *anti*-adipogenic — contradicting the sodium–adiposity association in [guide §2.6](guide.md) | open |
 
 ## Known gaps
