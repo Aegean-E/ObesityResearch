@@ -200,6 +200,140 @@ field treats adiposity as a *cause* of lymphatic dysfunction, consistent with cl
 
 ---
 
+## G — Mechanism M3 (interstitial fibrosis) — added 2026-10-02
+
+Session 2 found **fibrosis precedes adipocyte hypertrophy** (present at lipoedema stage I with
+normal adipocyte size), which makes M3 the earliest targetable step rather than a late
+complication. The register had no M3 entry. It does now, and the news is bad.
+
+### G1. Pentoxifylline + vitamin E — ❌ NEGATIVE in lymphoedema (closes my open item)
+
+The standard antifibrotic combination for radiation injury, and the unclosed item from §A3.
+
+**Double-blind placebo-controlled RCT, n=68**, chronic arm lymphoedema with fibrosis after
+breast-cancer surgery and radiotherapy, entry requiring **≥20% arm volume increase**:
+**at 12 months no significant difference in arm volume, and no benefit in radiation-induced
+induration (fibrosis) either.** Both endpoints null.
+
+Wider context: a phase II trial reported fibrotic lesion surface area falling **80 → 27 cm²
+(p<0.001)** in 21 lesions — but **meta-analysis found no benefit of pentoxifylline + vitamin E
+versus placebo or no intervention** for radiation-induced fibrosis in breast cancer. The
+uncontrolled result is impressive and the controlled result is null.
+
+→ **§A3 is downgraded accordingly.** Pentoxifylline's cytokine effect is real; its effect on
+this disease is not demonstrated.
+[RCT, Radiother Oncol 2004](https://pubmed.ncbi.nlm.nih.gov/15542159/) ·
+[meta-analysis](https://www.advancesradonc.org/article/S2452-1094(22)00019-7/fulltext)
+
+### G2. Metformin — ★ the best mechanistic fit in the register, and its own data contradict its title
+
+Mechanistically this is the most attractive agent encountered: in mouse lymphoedema it
+**alleviates inflammation and fibrosis and increases lymphangiogenesis via AMPK** — hitting
+**M1, M2 and M3 simultaneously** — and it is the most widely available prescription drug in the
+world, cheap, and extensively characterised in humans. AMPK activation in **human** adipose
+tissue in vivo is confirmed by a randomised glycaemia-controlled crossover study.
+
+**But read the data, not the title** (guide R19). The paper is titled *"Metformin Eliminates
+Lymphedema in Mice."* Its own results report that **metformin had no significant effect on
+hindlimb circumference or tail volume** — the volume endpoints were **null**. What improved
+were inflammation and fibrosis markers.
+
+> **This is the cleanest example in the project of why guide K-type rules exist: the title is a
+> claim, the figures are the data, and here they disagree.** An agent whose mechanism moves and
+> whose volume endpoint does not is exactly the pattern §H identifies as the field's signature.
+
+No human trial of metformin in lymphoedema or lipoedema with a volume endpoint was located.
+It **is** recommended in American lipoedema guidance — but for the **insulin-resistance**
+indication, not on lipoedema-specific trial evidence. That is a guideline recommendation
+standing on absent disease-specific data, and should be recorded as such rather than cited as
+support.
+[Plast Reconstr Surg 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11584190/) ·
+[human adipose AMPK](https://link.springer.com/article/10.1007/s00125-011-2126-4)
+
+### G3. Spironolactone / MR antagonism — ◐ antifibrotic signal, no disease data
+
+HOMAGE (n=527, 25–50 mg/day, up to 9 months) found lower follow-up serum **PICP** and
+NT-proBNP, suggesting altered type-I collagen metabolism. In adipose, spironolactone reduced
+basal **IL-6** secretion by cultured stromal-vascular cells, and MR controls adipocyte
+function; MR antagonism browns white adipose in high-fat-fed mice.
+
+**No human lymphoedema or lipoedema data.** P28 confirmed.
+[HOMAGE/PRIORITY proteomics](https://www.medrxiv.org/content/10.1101/2023.04.05.23288107.full.pdf) ·
+[adipose IL-6](https://pubmed.ncbi.nlm.nih.gov/18075971/)
+
+### G4. GLP-1 receptor agonists / tirzepatide — ◐ case series and narrative review only
+
+Exenatide in lipoedema exists as an **Italian case series**; tirzepatide appears as a
+**narrative review** arguing antifibrotic and immunometabolic relevance. **No controlled
+trial.** Note that these agents reduce fat by appetite suppression, so attributing any fat
+change to an antifibrotic mechanism would need the energy term subtracted first (guide R5) —
+the same error §E1 flags for SGLT2 inhibitors.
+
+**Standing fact for the register:** *there is currently no drug treatment approved for
+lipoedema.*
+[Case series](https://www.mdpi.com/2039-7283/15/7/128) ·
+[tirzepatide review](https://www.mdpi.com/1422-0067/26/21/10741)
+
+---
+
+## H — Mechanism M1 revisited: doxycycline, and why single trials mislead
+
+### H1. Doxycycline — ◐ a large single-trial effect that did not survive meta-analysis
+
+This looked, on first pass, like the best "easily achievable" candidate in the register: oral,
+cheap, globally available, and with a striking randomised result.
+
+**Mand et al. 2012** — n=162, three arms of 54 (doxycycline 200 mg/day × 6 weeks vs amoxicillin
+vs placebo): **improvement in 43.9% of doxycycline patients vs 3.2% amoxicillin and 5.6%
+placebo**, with reductions in lymphoedema severity at 12 **and** 24 months, **independent of
+circulating filarial antigen status** — i.e. not explained by killing the parasite. It also
+**reduces plasma VEGF-C / sVEGFR-3**, which is a direct mechanistic link to the M1 axis and to
+session 2's **C-03**.
+
+**Then it was replicated properly.** A 2026 systematic review and meta-analysis of **12 RCTs**
+(including multi-site trials in Sri Lanka, Mali, Tanzania and southern India): *Wolbachia*
+burden per microfilaria fell significantly, but doxycycline shows **"a limited role in
+clinically significant lymphedema reduction,"** with microfilarial evidence not robust and
+**vomiting significantly more common** in the doxycycline arm.
+
+> **43.9% vs 5.6% in one trial became "limited role" across twelve.** This is the single best
+> cautionary datum in the register, and it applies directly to §A1 (ketoprofen, n=16 per arm,
+> unreplicated). Record the effect size *and* the replication status, or the register misleads.
+
+[Mand 2012, Clin Infect Dis](https://academic.oup.com/cid/article/55/5/621/350498) ·
+[2026 meta-analysis](https://pubmed.ncbi.nlm.nih.gov/42492504/) ·
+[VEGF-C mechanism](https://journals.plos.org/plospathogens/article?id=10.1371%2Fjournal.ppat.0020092)
+
+---
+
+## I — Mechanism M6 (fructose → KHK → uric acid)
+
+### I1. PF-06835919 — ✅ the mechanism moves, measurably, and it is not body fat
+
+| | |
+|---|---|
+| **Design** | Phase 2, randomised, double-blind, placebo-controlled, 3 arms. 158 screened, **53 randomised, 48 completed** (placebo 17, 75 mg 17, **300 mg 14**) |
+| **Primary result** | Whole liver fat by MRI-PDFF, 300 mg vs placebo: **difference −18.73%, p=0.04**. From baseline to week 6: **−26.5% vs −7.78%** placebo. **75 mg not significant** — a dose-response |
+| **Secondary** | Reduced insulin resistance, ALT, AST, GGT, inflammatory markers |
+| **Safety** | Well tolerated; adverse-event frequency similar to control |
+| **D/E** | **D1/E1** |
+| **Counter-evidence** | **n=14 in the effective arm.** 6 weeks. **Liver fat is not adiposity** — no body-fat or weight endpoint reported. Investigational only: not available. A second phase 2a in NAFLD + T2D exists |
+| Source | [Med 2021](https://www.cell.com/med/fulltext/S2666-6340(21)00156-2) · [Diabetes Obes Metab 2023](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.14946) |
+
+**P27 confirmed exactly as written:** liver fat moves, body fat unmeasured. This is the
+best-executed trial in the register and it still cannot answer the project's question.
+
+---
+
+## J — Mechanism M4 (tissue mechanics / YAP-TAZ)
+
+**Empty.** No agent with human evidence located. YAP/TAZ-directed pharmacology does not exist
+clinically, and the mechanics route is addressed — if at all — by **compression**, which is
+physical rather than pharmacological and is the best-evidenced lymphoedema intervention
+overall. Recorded as a genuine blank rather than padded.
+
+---
+
 ## F — Scorecard and the honest summary
 
 | Prediction | Outcome |
@@ -228,3 +362,56 @@ field treats adiposity as a *cause* of lymphatic dysfunction, consistent with cl
 obvious — any of these agents, with **fat mass segmented from fluid by imaging** as the
 outcome instead of limb volume. That is the trial nobody has run, and session 1's measurement
 critique explains why the existing literature cannot substitute for it.
+
+---
+
+## K — The pattern across the whole register ★ added 2026-10-02
+
+Assembling every hard-endpoint result in one place produces something none of the individual
+rows shows, and it is the most important output of this register:
+
+| Agent | Mechanism target | Biomarker / surrogate | **Hard endpoint (volume, fat, tissue)** |
+|---|---|---|---|
+| Ubenimex | M2 (LTA4H→LTB4) | — | ❌ **failed**: skin thickness, limb volume, bioimpedance all null |
+| Coumarin | M1 | — | ❌ **negative** (NEJM) |
+| Pentoxifylline + vit E | M3 | ✅ TNF-α, IL-6, CRP ↓ | ❌ **null** at 12 months: arm volume *and* fibrosis (n=68) |
+| Doxycycline | M1 (VEGF-C ↓) | ✅ *Wolbachia* burden ↓ | ◐ large in **one** trial → **"limited role"** across **12** |
+| Metformin | M1+M2+M3 | ✅ inflammation, fibrosis, lymphangiogenesis ↑ | ❌ **null**: hindlimb circumference, tail volume (mouse) |
+| Ketoprofen | M2 | ✅ G-CSF ↓ | ◐ skin thickness ↓ — **n=16/arm, unreplicated** |
+| PF-06835919 | M6 | ✅ liver fat −18.73%, p=0.04 | ⬜ **body fat never measured** |
+| Water | M7 | ✅ copeptin −39% | ⬜ **never measured** |
+| Epalrestat | M5 | ✅ nerve conduction | ⬜ **never measured** |
+
+**The pattern: biomarkers move reliably; hard endpoints do not.** Every agent with a
+mechanistically motivated rationale that received a properly controlled trial with a hard
+endpoint either failed outright or shrank to "limited" on replication. The one apparent
+exception is the smallest and least replicated study in the register.
+
+Two readings, and they are not equally comfortable:
+
+1. **The mechanisms are wrong**, or too downstream, or too small to matter at the tissue level.
+2. **The endpoints are wrong.** And the project has independent reason to suspect this:
+   **limb volume conflates fat with fluid** (guide §1.5, session 1 §2.4 — the measurement
+   critique that resolved C-02). An agent that removed adipose tissue while fluid rose, or
+   vice versa, would read as null on every trial in this table. **Bioimpedance has the same
+   defect.** Skin thickness measures neither.
+
+> So the field may have been testing plausible mechanisms with instruments that cannot see the
+> thing in question. That is not a defence of the mechanisms — it is a reason the negative
+> record is **less informative than it looks**, and a reason the single missing study (fat
+> segmented from fluid by imaging) would be worth more than any new agent.
+
+**What this means for the register's practical answer.** The honest ranking by *evidence that
+something happens in a human*:
+
+- **Water intake** — reliable, free, risk-free, biomarker-level, mechanism M7.
+- **Ketoprofen** — the only positive controlled tissue-level result; small, unreplicated, and
+  its own pathway's more specific agent failed.
+- **Epalrestat** — approved and in use for a different indication in three countries; M5.
+- **Metformin** — best mechanistic breadth, human AMPK activation confirmed, **zero human
+  disease-endpoint evidence and null volume endpoints in its own mouse model.**
+- Everything else — negative, unreplicated, unavailable, or confounded by energy balance.
+
+**Nothing in that list has been shown to reduce adiposity.** The register's value is that it
+now says exactly where each candidate fails, and names the one measurement that would change
+the picture.

@@ -88,3 +88,88 @@ discipline confidence in the whole class, and it is a live argument against over
 - **Unexpected:** that the *approved* aldose reductase inhibitor exists and is in routine use
   in three countries, while the class failed regulatory approval elsewhere — the availability
   asymmetry is geographic, not scientific.
+
+---
+
+# Session 3b — filling the register's holes (M3, M4, M6) and closing my own open items
+
+The register as written covers M1, M2, M5, M7 and **leaves M3 (fibrosis), M4 (mechanics) and
+M6 (fructose/KHK) empty**. That is a real omission, and M3 matters most: session 2 found
+**fibrosis precedes adipocyte hypertrophy** (lipoedema stage I), which makes it arguably the
+earliest targetable step rather than a late complication.
+
+## Predictions, before searching (guide R11)
+
+- **P24** — **Pentoxifylline + vitamin E** will have genuine randomised evidence for
+  **radiation-induced fibrosis**, making it the best-evidenced M3 combination, and it will have
+  been tried in lymphoedema specifically (NCT00022204, my unclosed item).
+- **P25** — **Doxycycline** will have randomised evidence in **filarial** lymphoedema with a
+  limb-volume benefit, acting through anti-*Wolbachia* and/or MMP inhibition.
+- **P26** — **Metformin** will have been tried in lipoedema, at pilot scale at best.
+- **P27** — The **KHK inhibitor** (PF-06835919) phase 2 will have reported, showing **liver**
+  fat reduction without body-fat change — i.e. hitting M6 without hitting adiposity.
+- **P28** — **Spironolactone / MR antagonism** will have adipose and antifibrotic data but
+  none in lymphoedema.
+- **P29 — the self-challenge.** I generalised in §F that *nothing* has been tested against
+  adiposity. **I expect that to be wrong somewhere**, most likely in **lipoedema**, where
+  excess fat is the defining feature rather than an end-stage complication, so fat volume is
+  the natural endpoint. If so, §F overstated and must be corrected.
+
+**P29 is the one I am actively trying to falsify.** A sweeping negative claim of mine is the
+most likely thing in this register to be wrong.
+
+## Findings — session 3b
+
+Register expanded with **§G (M3), §H (doxycycline), §I (M6), §J (M4 — empty)** and **§K, the
+cross-register pattern**, in [interventions.md](../interventions.md).
+
+### Scorecard
+
+| | Outcome |
+|---|---|
+| **P24** | ✅ Confirmed that PTX+vitamin E is the M3 combination — **and its lymphoedema RCT is NEGATIVE** (n=68, ≥20% volume entry: arm volume *and* fibrosis null at 12 months). Meta-analysis also null for radiation fibrosis, against a positive uncontrolled phase II. **My open item is closed, in the unfavourable direction** |
+| **P25** | ◐ **Half right, and the half I got wrong is the important one.** Mand 2012 is real and large (**43.9% vs 5.6%**, independent of antigen status, VEGF-C ↓). But the **2026 meta-analysis of 12 RCTs** finds "limited role in clinically significant lymphedema reduction", with vomiting commoner. I predicted the positive trial and not its collapse |
+| **P26** | ◐ Metformin is **recommended in American lipoedema guidance** — for the insulin-resistance indication, with **no lipoedema-specific trial**. A guideline standing on absent disease data |
+| **P27** | ✅ **Exactly right.** Liver fat −18.73% vs placebo (p=0.04), dose-responsive, n=14 effective arm; **no body-fat endpoint** |
+| **P28** | ✅ Confirmed — spironolactone has antifibrotic (PICP) and adipose IL-6 data, **no lymphoedema/lipoedema data** |
+| **P29** | ◐ **Partly right, and worth the correction.** Lipoedema *does* have trials with volume/fat endpoints — LIPLEG (surgery vs decongestive therapy), liposuction outcomes, HIIT — but they are **surgical and physical, not pharmacological**. So §F's claim survives **for drugs**, and is now stated that way. Also: *no drug treatment is approved for lipoedema* |
+
+### The catch that matters most
+
+**Metformin.** The paper is titled *"Metformin Eliminates Lymphedema in Mice."* Its own data
+report **no significant effect on hindlimb circumference or tail volume** — the volume endpoints
+were **null**; inflammation and fibrosis markers were what moved.
+
+This is the clearest instance in the project so far of the rule being load-bearing: the title is
+a claim, the figures are the data, and here they contradict each other. **Guide R19 caught it**
+(read the preparation and the result, not the summary), one session after that rule was written
+from a different error. Had I taken the title, metformin would have entered the register as the
+best agent in it — broad mechanism, universally available, cheap.
+
+### The synthesis (§K)
+
+Laid side by side, **every** mechanistically motivated agent that got a properly controlled
+trial with a hard endpoint failed or shrank on replication, while **biomarkers moved reliably in
+nearly all of them.** Ubenimex, coumarin, pentoxifylline+E: null. Doxycycline: 43.9% in one
+trial → "limited" across twelve. Metformin: markers yes, volume no. Ketoprofen is the lone
+positive and is the smallest, least replicated study present.
+
+Two readings, and the project has independent reason to prefer the second as *partly* true:
+either the mechanisms are wrong, **or the endpoints are** — because **limb volume and
+bioimpedance both conflate fat with fluid**, the exact defect that resolved C-02 in session 2.
+An agent removing adipose while fluid rose would read null in every trial in that table.
+
+That does not rescue the mechanisms. It means **the negative record is less informative than it
+looks**, and it raises the value of the one missing measurement — fat segmented from fluid by
+imaging — above the value of any further agent search.
+
+### Audit
+
+- **Closed:** my pentoxifylline/vitamin E open item (negative).
+- **Still open:** benfotiamine (no randomised polyol-pathway trial retrieved); the 90-woman
+  selenium-adjacent trial (unverifiable in either direction); the doxycycline meta-analysis
+  pooled effect estimate with CI, which I could not retrieve behind a paywall and have therefore
+  reported qualitatively rather than numerically — **flagged as a numeric gap, not glossed**.
+- **Wrong in a useful way:** P25. I predicted the headline trial and missed that it had already
+  been overturned. Lesson recorded: **search for the replication before recording the effect**,
+  not after.
