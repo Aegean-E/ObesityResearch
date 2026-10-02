@@ -281,3 +281,197 @@ that may be part of why §K of the register found every hard endpoint null.
    implies? Timing study.
 4. Glyceroneogenesis inhibition as an intervention class — unexamined in the register, and the
    first M8 entry.
+
+---
+
+# 6. Session 2026-10-02b — can the gate be opened, and does it defend itself?
+
+Two questions, in order of importance:
+
+**Q-i — Does the gate close itself as you fast?** §4.1 found glyceroneogenesis is *induced by
+fasting*. If that induction is quantitatively meaningful, then **fasting opens the hydrolysis
+side and the cell compensates on the re-esterification side** — a biochemical
+defended-set-point, at exactly the level this project's premise requires. That would be the
+most important thing in H2.
+
+**Q-ii — What opens the gate pharmacologically?** M8 has no intervention entry.
+
+## Predictions, before searching (guide R11)
+
+- **P42 — the one that matters.** Fasting-induced glyceroneogenesis will be **quantitatively
+  substantial**, not a trace pathway, and will be describable as *opposing* fat loss. If so, the
+  re-esterification gate is a **self-closing** gate and part of the defence of adipose mass.
+- **P43** — **PEPCK inhibition** will exist only as research tools (3-mercaptopicolinate,
+  hydrazine sulfate) with **no viable clinical agent**, because PEPCK is required for hepatic
+  gluconeogenesis and systemic inhibition would be intolerable. The gate will turn out to be
+  **pharmacologically closable but not openable** — the same availability asymmetry as P21.
+- **P44** — **Leptin (metreleptin)** will be the one approved agent whose mechanism includes
+  opening the gate, and its fat-loss effect will be real but confined to leptin-deficient states
+  (lipodystrophy, congenital deficiency), **not** common obesity, where leptin is already high.
+- **P45 — my sharp inference, flagged as such and to be tested.** Metformin inhibits
+  **mitochondrial glycerophosphate dehydrogenase**, which oxidises G3P to DHAP. Inhibiting it
+  should **raise cytosolic G3P**. In adipose tissue that would mean **more substrate for
+  re-esterification — i.e. metformin would CLOSE the gate** and favour fat retention. This runs
+  against metformin's reputation and against its entry in
+  [interventions.md §G2](../interventions.md). *(My inference, not shown — I expect the
+  literature to have established the mGPD mechanism in liver and to be silent on adipose.)*
+- **P46** — Human **TG/FA cycling rates** will have been measured by tracer, and the recycled
+  fraction will be **large** — tens of percent of hydrolysed fatty acids re-esterified rather
+  than released. A small fraction would make H2 a curiosity; a large one makes it the control
+  point.
+
+**P42 and P46 together decide whether M8 is the project's main line or a footnote.**
+
+## 7. Findings
+
+### 7.0 Headline — the gate is enormous, and its setting varies 0–100% between people
+
+**P46 confirmed, and larger than I predicted.** Re-esterification is not a trim on lipolysis; it
+is most of it.
+
+| Measure | Value |
+|---|---|
+| **Fraction of released FFA recycled back to triglyceride** | **~75%**, and "relatively constant" across metabolic states despite large changes in cycling *rate* |
+| Adipose **intracellular** recycling, share of total | **20–30%** |
+| Non-adipose (mainly hepatic) share of re-esterification, overnight fast | **~50%** |
+| Adipose recycling during fasting | estimated **up to 40%** |
+| **Human adipocytes in vitro**, no hormone, 5 mM glucose | **40 ± 4%** cycled back — **range 0–100% across 51 subjects** |
+| Effect of fasting + β-adrenergic stimulation on adipose re-esterified fraction | falls from **30–40% → 8–21%** |
+
+> **★ The most important number in this project so far: 0–100% across 51 people.**
+>
+> Two individuals with **identical** rates of hydrolysis can differ severalfold in **net** fat
+> release, purely from where their re-esterification gate sits. That is **measured, human,
+> inter-individual heterogeneity in a mechanism that controls fat retention** — and it is
+> exactly the kind of heterogeneous susceptibility the project's framing requires, since a
+> uniform exposure cannot explain a widening distribution.
+>
+> *(That this fits the project's needs is a reason to scrutinise it harder, not to celebrate.
+> The 0–100% range comes from one in vitro series and could be assay variance as much as
+> biology. **Finding the original and reading its figures is the single highest-value next
+> read.**)*
+
+### 7.1 ◐ P42 — the gate is braked, not self-closing, and the brake moves to the liver
+
+I predicted fasting-induced glyceroneogenesis would **oppose** fat loss strongly enough to make
+the gate self-closing. The picture is more interesting than that:
+
+- **Glyceroneogenic capacity rises with fasting** — PEPCK-C induced, pyruvate→glyceride-glycerol
+  up (§4.1, confirmed).
+- **Yet the adipose re-esterified fraction falls** with fasting and β-stimulation, 30–40% → 8–21%.
+
+**Resolution: hydrolysis rises faster than glyceroneogenesis can compensate.** So
+glyceroneogenesis is a **partial brake**, not a defence that holds. **P42 partly wrong.**
+
+**But the systemic picture restores most of the concern, by a different route.** Total recycling
+stays near **75%** while *adipose* recycling falls — because the **liver takes over** (~50% of
+re-esterification). The fatty acids leave the adipocyte and are re-esterified elsewhere, to
+return as VLDL.
+
+> **So "more lipolysis" need not mean "less fat," even with the adipose gate wide open** — the
+> recycling simply relocates. This is a second, systemic reason why the interventions in
+> [§K of the register](../interventions.md) may have moved markers without moving mass, and it
+> is independent of the measurement critique offered there.
+
+[TG/FA cycle review (JBC)](https://www.jbc.org/article/S0021-9258(20)84065-4/fulltext) ·
+[substrate cycling in human adipocytes](https://pubmed.ncbi.nlm.nih.gov/3550370/) ·
+[energy cost of recycling, overnight fast vs 4-day starvation](https://www.sciencedirect.com/science/article/abs/pii/0026049587901843) ·
+[lipid metabolism during fasting](https://journals.physiology.org/doi/full/10.1152/ajpendo.2001.281.4.e789)
+
+### 7.2 ✅ P43 — the gate is pharmacologically closable but not openable, for a structural reason
+
+**PEPCK inhibitors exist and are orally active:**
+
+- **3-mercaptopicolinic acid (SKF-34288)**: orally active, **Ki 2–9 µM**, two binding sites — one
+  competitive with PEP/OAA (~10 µM), one allosteric (Ki ~150 µM). Historically noted as a
+  **potent hypoglycaemic agent** *because* it inhibits PEPCK.
+- **Hydrazine sulfate**: orally active PEPCK inhibitor, also inhibits low-Km ALDH, **hepatotoxic**
+  (exacerbates ethanol liver damage).
+
+**And here is the structural barrier, which is better than a mere drug-development gap:**
+
+> **PEPCK serves four pathways — gluconeogenesis, glyceroneogenesis, serine synthesis, and the
+> conversion of amino-acid carbon skeletons.** So you cannot inhibit glyceroneogenesis without
+> inhibiting gluconeogenesis. The hypoglycaemia is not a side effect; it is the **same
+> enzyme doing its main job.**
+
+That is why M8 has no opening agent and is unlikely to get one by this route. **P43 confirmed,
+with a mechanism for why.** Any real M8 intervention would need adipose-selective delivery, or a
+different node — G0S2 destabilisation being the obvious untried candidate.
+[3-MPA pharmacology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4938538/) ·
+[allosteric site](https://pubs.acs.org/doi/abs/10.1021/acs.biochem.5b00822)
+
+### 7.3 ✅ P44 — leptin opens the gate, and is useless where it would be wanted
+
+| | |
+|---|---|
+| **Lipodystrophy** (leptin-**deficient**), n=48 generalised | HbA1c **8.4% → 6.4%**; triglycerides **467 → 180 mg/dL** at 12 months; sustained over 3 years |
+| **Common obesity** (leptin-**resistant**) | "minimal weight loss at best" |
+| Anti-leptin antibodies | **96–100%** of metreleptin-treated obese patients; 86–92% in lipodystrophy |
+
+So the one approved agent whose mechanism includes opening H2's gate (PEPCK nitration, §4.2)
+works **only** in the states where leptin is absent — and in common obesity, where the gate
+would be the target, leptin is already high and adding more does nothing. **P44 confirmed.**
+This is [guide R21](../guide.md)'s lesson in hormonal form: the right mechanism in the wrong
+context.
+[long-term metreleptin](https://pmc.ncbi.nlm.nih.gov/articles/PMC3498767/) ·
+[immunogenicity](https://pmc.ncbi.nlm.nih.gov/articles/PMC4875885/)
+
+### 7.4 ⚠ P45 — my inference is untested AND rests on a contested premise. Not a finding.
+
+I inferred that metformin, by inhibiting mitochondrial glycerophosphate dehydrogenase (mGPD),
+would **raise cytosolic G3P** and therefore **close** the gate — making metformin fat-sparing,
+against its reputation and against its own entry in the register.
+
+**What is established:** Madiraju et al., *Nature* 2014 — metformin at physiologically relevant
+doses non-competitively inhibits mGPD, altering hepatocellular redox, reducing conversion of
+**lactate and glycerol** to glucose, and suppressing hepatic gluconeogenesis; antisense knockdown
+of hepatic mGPD reproduces the phenotype.
+
+**Three reasons to hold my inference at arm's length:**
+
+1. **The premise is contested.** A bioRxiv paper titled *"If Metformin Inhibited the
+   Mitochondrial Glycerol Phosphate Dehydrogenase…"* challenges it, and a PNAS paper offers a
+   **different** mechanism — metformin, phenformin and galegine inhibiting **complex IV** and
+   reducing glycerol-derived gluconeogenesis. The mGPD account is not settled.
+2. **It is a liver result.** Nothing retrieved measures adipose G3P under metformin. **R21
+   applies to me again** — I was about to assert a pathway without checking the tissue.
+3. **It predicts the wrong clinical outcome.** Metformin lowers liver fat in practice. If raised
+   cytosolic G3P drove re-esterification, the opposite would be expected — so either the
+   inference is wrong, or something else dominates.
+
+**Recorded as a speculation with a stated test, not as a result.** The test: adipose G3P and
+re-esterification fraction under metformin, which a 2025 adipose-metformin review may already
+address and which I have not read.
+[Nature 2014](https://www.nature.com/articles/nature13270) ·
+[challenge](https://www.biorxiv.org/content/10.1101/2020.03.28.013334v1.full.pdf) ·
+[complex IV alternative](https://www.pnas.org/doi/10.1073/pnas.2122287119) ·
+[adipose review, unread](https://pmc.ncbi.nlm.nih.gov/articles/PMC12409170)
+
+---
+
+## 8. Where H2 now stands
+
+**Confirmed and quantified.** Net lipolysis is gated by re-esterification; **~75% of hydrolysed
+fatty acids are recycled**; three depletable pools control it (G3P, G0S2, adipose glycogen);
+closing the gate genetically **causes obesity**; leptin opens it; thiazolidinediones close it.
+
+**The two hardest facts for any intervention built on it:**
+
+1. **Opening the adipose gate relocates recycling to the liver** rather than abolishing it
+   (§7.1). Net oxidation, not net release, is what would have to change.
+2. **The gate cannot be opened selectively**, because PEPCK is shared with gluconeogenesis
+   (§7.2), and the one hormone that opens it fails exactly where it is needed (§7.3).
+
+**The most promising thing H2 produced is not a target but a variable:** the
+**0–100% inter-individual range** in re-esterified fraction (§7.0). If that is real, it is a
+measurable trait that would predict who retains fat from a given lipolytic drive — and it has
+never been used that way.
+
+**Next, in order:**
+1. **Read the 51-subject source at figure level.** Is the 0–100% range biology or assay spread?
+   Everything above rests on it.
+2. **P41** — G0S2 and PEPCK-C in lymphoedematous vs control adipose (banked tissue).
+3. Has re-esterified fraction ever been correlated with **adiposity or weight trajectory** in
+   humans? If not, that is the study.
+4. **G0S2 destabilisation** as the untried M8 node — no shared-pathway problem, unlike PEPCK.
