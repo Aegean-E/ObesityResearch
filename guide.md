@@ -479,6 +479,14 @@ wrong is the most reusable thing in the project.
 
 **R18 — Numbers in this file are from memory until verified.** See §4.
 
+**R18c — A number from a search summary is not a number from a source.** R18 quarantines what
+I recall; this quarantines what I have read *once, second-hand*. A figure seen only in a search
+result or an abstract snippet is provisional: it may be cited as provisional, never built on, and
+never promoted to a headline until its primary source has been read at figure level. The instance:
+I called an unverified 0–100% range "the most important number in this project" on one snippet,
+and had to demote it the next session (H2 §10.1). **The attractiveness of a number is not evidence
+for it — and it is a reason to check harder, because it is exactly when I will not want to.**
+
 **R18b — An n-of-1 observation is D8/E1: it starts searches, it never supports claims.** The
 subject's own observations go in `observations/` **quoted unaltered**, with the separable claims
 inside them numbered so each can be tested on its own. They may direct the literature and they

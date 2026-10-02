@@ -475,3 +475,147 @@ never been used that way.
 3. Has re-esterified fraction ever been correlated with **adiposity or weight trajectory** in
    humans? If not, that is the study.
 4. **G0S2 destabilisation** as the untried M8 node — no shared-pathway problem, unlike PEPCK.
+
+---
+
+# 9. Session 2026-10-02c — attacking my own best number
+
+§7.0 called the **0–100% inter-individual range** in re-esterified fraction the most important
+number in the project. That makes it the thing most worth trying to destroy.
+
+## Predictions, before searching (guide R11)
+
+- **P47 — the sceptical one, and I half expect to be right.** The 0–100% range will prove to be
+  substantially **technical**, not a stable trait: a 1987 isolated-adipocyte method, n=51, with
+  large preparation variance. **The strongest argument against it being a real trait is that
+  nobody has used it as one in ~40 years.** A robust, severalfold, measurable determinant of net
+  fat release would not have been left alone.
+- **P48** — Re-esterification fraction **has** been compared between obese and lean humans, and
+  will be **higher in obesity** (gate more closed). I hold this loosely; the literature may
+  disagree with itself.
+- **P49** — **Nobody will have measured re-esterified fraction prospectively against weight
+  trajectory.** The trait-prediction study will not exist. If so, that is the study H2 implies
+  and the project's clearest unexploited opening.
+- **P50** — The "~75%, relatively constant" figure will trace to a **small number of tracer
+  studies, plausibly one group**, and the constancy claim will be weaker than the phrasing
+  implies.
+
+**If P47 lands, §7.0 must be demoted and the headline rewritten.** Writing that down now so the
+demotion cannot be quietly skipped later.
+
+## 10. Findings — and §7.0 is demoted as promised
+
+### 10.0 Headline — H2's mechanism survives; H2 as an *explanation of human obesity* does not
+
+Three results, and together they are sobering:
+
+1. **The 0–100% range is UNVERIFIED.** I could not reach the 1987 source. **P47 untested.**
+2. **Obesity itself shows NO difference in re-esterification fraction from lean.** **P48 refuted.**
+3. **The weight-reduced state has LESS re-esterification** — gate *more* open — and those are
+   precisely the people who regain. **So gate setting does not determine fat trajectory.**
+
+The causal core of H2 stands: closing the gate genetically **causes** obesity (§4.2). But the
+human cross-sectional data says the gate is **not** where lean and obese people differ.
+
+### 10.1 ⚠ P47 untested — §7.0 demoted, as I committed to doing
+
+PubMed would not serve the abstract; the 1987 isolated-adipocyte paper remains **unread**.
+
+> **Demotion, executed.** §7.0 called the 0–100% inter-individual range "the most important
+> number in this project." **That status is withdrawn.** It is now an **unverified claim pending
+> its primary source**, and nothing should be built on it. I wrote the demotion condition into
+> §9 before searching precisely so this could not be skipped once the number had become
+> attractive. *(I am also no closer to knowing whether it is biology or assay spread — the
+> sceptical case in P47 is untested, not refuted.)*
+
+What I did find is the methodological lineage — a **dual-isotopic technique** for measuring
+lipolysis, acylglycerol synthesis and re-esterification in human adipose tissue and isolated
+adipocytes, plus a 1985 radioisotopic method paper. So the measurement is real and established;
+its between-subject spread is what I cannot yet vouch for.
+[1985 method](https://journals.physiology.org/doi/abs/10.1152/ajpendo.1985.248.1.E140) ·
+[mechanism of re-esterification in human adipocytes](https://www.sciencedirect.com/science/article/pii/S0022227520426136)
+
+### 10.2 ✗✗ P48 REFUTED — the gate is not where obesity differs
+
+From *"Alterations in adipocyte free fatty acid re-esterification associated with obesity and
+weight reduction in man"*:
+
+| Group | FFA:glycerol molar ratio | Implied re-esterification |
+|---|---|---|
+| Never-obese, weight-stable | **1.4 : 1** | ~**53%** of FFA retained (max possible ratio is 3:1) |
+| **Weight-stable obese** | **not significantly different from control** | **same** |
+| Weight-stable **reduced-obese** | **significantly higher** than control *or* obese | **lower** re-esterification |
+
+> **I predicted obesity would show a more closed gate. It does not.** Established obesity and
+> leanness have the **same** re-esterification fraction. So whatever sets fat mass, **the gate's
+> steady-state setting is not the difference between an obese and a lean person.**
+
+### 10.3 ★ The reduced-obese result runs the wrong way for H2, and that is the real finding
+
+People who have lost weight re-esterify **less** — their gate is **more open** — and they are the
+group that regains most aggressively.
+
+If an open gate straightforwardly produced fat loss, the weight-reduced would be protected. They
+are not. Two readings, neither comfortable for a simple version of H2:
+
+- **The gate is downstream of the decision.** It reports energy state rather than setting fat
+  mass — opening when glucose and G3P are scarce, which is a *consequence* of restriction.
+- **Compensation elsewhere dominates** — appetite, energy expenditure, and the hepatic recycling
+  of §7.1, which keeps total recycling near 75% whatever adipose does.
+
+**Either way: opening the adipose gate is not sufficient for fat loss in humans**, and H2's value
+is as a description of *how* storage is defended, not as a lever. That is a real narrowing and it
+should temper the enthusiasm of §4.0.
+
+[Am J Clin Nutr](https://pubmed.ncbi.nlm.nih.gov/4025192/)
+
+### 10.4 ✅ P49 confirmed — the prospective study does not exist
+
+No study located correlating re-esterification fraction with **subsequent** weight trajectory.
+Given §10.2, the interesting version has also changed: not "do obese people re-esterify more"
+(answered, no) but **"does an individual's gate setting predict their response to a given
+energy deficit?"** That remains unasked, and §10.3 makes it more interesting rather than less,
+because cross-sectional equality does not exclude predictive value.
+
+### 10.5 Counter-evidence found, recorded at equal weight (R5/R22)
+
+- **More re-esterification can be metabolically *good*.** *Adss1* deficiency upregulates glycerol
+  kinase, **promoting** glycerol-dependent adipose re-esterification — and the paper's framing is
+  that this **improves** energy metabolism. A direct counter-example to "open gate good, closed
+  gate bad." It also matters mechanistically: **glycerol kinase upregulation lets adipocytes
+  reuse glycerol, bypassing the G3P limitation entirely** — a fourth route into the gate that
+  §2's table missed.
+- **Systematic between-group variation does exist:** *"Ethnic differences in in vitro glyceride
+  synthesis in subcutaneous and omental adipose tissue."* Weak support for the §7.0 idea that the
+  gate's setting varies systematically — but between *groups*, which is not the same as a stable
+  individual trait.
+
+[Adss1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12767003/) ·
+[ethnic differences in glyceride synthesis](https://journals.physiology.org/doi/full/10.1152/ajpendo.00225.2002)
+
+---
+
+## 11. H2's standing, revised
+
+| Claim | Status |
+|---|---|
+| Net lipolysis is gated by re-esterification | ✅ established, ~75% recycled |
+| Three (now four) depletable control points | ✅ G3P, G0S2, adipose glycogen, **+ glycerol kinase** (§10.5) |
+| Closing the gate **causes** obesity | ✅ sufficiency, PEPCK transgenic |
+| Leptin opens it; TZDs close it | ✅ both directions, pharmacologically |
+| **The gate differs between obese and lean humans** | ❌ **refuted** (§10.2) |
+| **Opening the gate produces fat loss in humans** | ❌ **not supported** — weight-reduced have a more open gate and regain (§10.3) |
+| The gate can be opened selectively | ❌ PEPCK shared across four pathways (§7.2) |
+| Individual gate setting predicts response to deficit | ⬜ **unasked** — the one live question |
+
+**Honest summary.** The subject's hypothesis is **mechanistically correct and causally
+demonstrated in animals**, and it reframes lipolysis usefully — net release is a margin, not a
+switch. But as an account of *why some humans carry more fat*, it is now **contradicted at the
+steady state** and **unsupported as a lever**. What survives is narrower and still worth having:
+a description of how adipose defends its mass, a reason why lipolysis-raising interventions can
+do nothing, and one unasked predictive question.
+
+**My error pattern this session:** I elevated an unverified number to "most important in the
+project" on a single search snippet, then spent the next session trying to demote it. **The rule
+should have caught it earlier** — guide R18 quarantines *recalled* numbers but says nothing about
+numbers read once from a search summary and not from the source. That gap is worth closing.
