@@ -333,6 +333,39 @@ Mechanism 3 is the control condition for mechanisms 1 and 2. An osmolality–adi
 association that has not been tested against taste and energy intake is not yet evidence
 of an osmotic mechanism.
 
+### 2.10 Cell-volume sensing: WNK1/SPAK (M10) — and the correction that intracellular osmolarity is not a variable
+
+Added 2026-10-02 from [H4](hypotheses/H4-intracellular-osmolarity.md).
+
+**The correction first, because it applies to this whole document.** Water crosses nearly all cell
+membranes freely, so **intracellular osmolality is clamped to extracellular within seconds**.
+"Elevated intracellular osmolarity" is a category error as a sustained state; the attempt to buffer
+it by macromolecular condensation has been explicitly tested and rejected. **What varies is cell
+volume**, set by the *quantity* of impermeant solute, and defended continuously at ATP cost by the
+**pump-leak** mechanism — impermeant polyanions would cause Donnan swelling to lysis, and the
+Na/K-ATPase prevents it. Pump failure produces progressive depolarisation and unstable swelling.
+**Rewrite "the cell becomes hyperosmolar" as "the cell holds more impermeant solute and sits at a
+larger volume" wherever it appears.**
+
+**The sensor is WNK1**, and the mechanism is molecular: hyperosmolality extracts water from WNK1's
+own **catalytic core**, chloride unbinds, S382 autophosphorylates, and WNK1 **phase-separates** into
+condensates that activate **SPAK/OSR1** → **NKCC1/KCC** → regulatory volume increase. So the cell
+senses **macromolecular crowding**, not osmolarity. The same molecule is the **central osmosensor
+for vasopressin release** (WNK1–OSR1/SPAK–Kv3.1), joining §2.3's AVP axis to cell-volume control
+through one protein.
+
+**Causal obesity evidence:** **SPAK inactivation** makes mice resistant to diet-induced obesity and
+steatosis with higher energy expenditure, BAT thermogenesis and reduced white adipose hypertrophy;
+**WNK4 deletion** reduces diet-induced obesity and WNK4 is adipogenic; WNK1→SGK1→FOXO1 drives
+adipogenesis. **Caution:** WNK/SPAK is also the renal salt-handling pathway, so inhibition carries
+electrolyte and blood-pressure consequences — the same shared-pathway barrier that killed PEPCK
+(H2 §7.2).
+
+**Direction, against the swelling premise:** whole-body **ECW/ICW rises with percent body fat**
+(suggestive but confounded by adipose's own low water content — needs normalising to fat-free mass).
+With VA-01's plasma null and §1.5's oedema finding, that is a third line pointing extracellular
+rather than intracellular.
+
 ### 2.9 Adipose senescence (M9) — the polyol pathway's real route
 
 Added 2026-10-02 from [H3](hypotheses/H3-polyol-osmolyte-mtor.md), replacing the osmotic reading
