@@ -86,6 +86,10 @@ Predicts retention ranked by molecular radius; testable with one multiplex panel
 | **F2** | The urea (ineffective) component is also not associated | β −0.183 p=0.098 (J); −0.078 p=0.57 (H) | same | D1/E1 | — | One sensitivity model reached p=0.042 in one cycle only; 1 of 36 terms, does not replicate | same |
 | **F3** | **Using DXA fat instead of BMI does not change the answer** | BMI models also null, both cycles | same | D1/E1 | — | — | same |
 | **F4** | **No sex asymmetry**, against repeated expectation from the AVP-oestrogen literature | Women and men both null; sign flips between cycles | same | D1/E1 | — | — | same |
+| **F6** | **ICW per kg fat-free mass RISES with body fat** | +0.0098 and +0.0078 kg/kg per 10 pp fat, p=6e-6 / 4e-9 | Human, NHANES 2001-04, multifrequency BIA + DXA, adults, n=1,850 / 1,668 | D1/E1 | — | **BIA compartment model assumes the hydration constant that this result shows is violated, so the split may be partly artefactual** | [VA-02](analysis/VA02-REPORT.md) |
+| **F7** | ECW per kg fat-free mass rises by the same relative amount | +0.0055 / +0.0056 per 10 pp, p=5e-16 / 1e-14 | same | D1/E1 | — | same | same |
+| **F8** | **Therefore the raw ECW/ICW ratio is NULL** — the published ratio-to-fat association does not survive adjustment | p=0.28 / 0.50 | same | D1/E1 | — | Withdraws H4 §4.6's "third line pointing extracellular" | same |
+| **F9** | **Fat-free mass is more hydrated in obesity** | TBW/FFM p=1e-9 / 7e-20; mean hydration 0.75-0.78 vs 0.73 assumed | same | D1/E1 | contributory (methodological) | Interacts with F6's caveat | same |
 | **F5** | Descriptive, as pipeline sanity check | calc osmolarity **290.2 / 289.1 mOsm/L**; body fat **33.1% / 33.1%**; BMI **29.0 / 28.7**; eGFR **103 / 102** | same | D1/E1 | — | — | same |
 
 ---

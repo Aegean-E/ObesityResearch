@@ -199,6 +199,15 @@ Four consequences I must carry:
   unaffected.** In breast-cancer-related lymphoedema the contralateral arm also shows
   lymphatic dysfunction, and limbs are often sampled by different methods; I asserted this
   control was unarguable and it is not (H1 §3A.4).
+- **Our own data: the extra water in obesity is in BOTH compartments, proportionally.**
+  [VA-02](analysis/VA02-REPORT.md), n=3,518 adults, two cycles: ICW/fat-free mass and
+  ECW/fat-free mass both rise with DXA body fat at near-identical relative rates, so the
+  **ECW/ICW ratio is null** (p=0.28, 0.50) and the published ratio-to-fat association does not
+  survive adjustment. **No compartment specificity**, so this does not support cell swelling *or*
+  the extracellular reading. What does replicate is that **fat-free mass is more hydrated in
+  obesity** (TBW/FFM, p=10⁻⁹ and 10⁻²⁰; hydration 0.75–0.78 vs the 0.73 assumed constant) — which
+  is also a reason to distrust how bioimpedance partitioned that water, since its model assumes
+  the constant it violates. Dilution (deuterium + bromide) is what the question needs.
 - **Lymph is isosmotic to plasma, even on a high-salt diet.** It differs from plasma in
   protein (~50% in skin and muscle) and lipid, **not in tonicity**. So the lymphatic route
   and the osmolality route are **separate channels** — lymph carries lipid signals, not
@@ -547,6 +556,15 @@ inside them numbered so each can be tested on its own. They may direct the liter
 may be the reason a mechanism gets looked at — they may **never** appear beside a measured
 finding as though the two weighed the same. And the load-bearing claim in an observation is
 usually the one that feels most obvious to the observer: name it and design its test first.
+
+**R19b — A filter that discards most of the sample is a bug until proven otherwise.** Check n
+after every exclusion and treat a large unexplained drop as an error in your own code, not a
+property of the data. The instance: I filtered NHANES bioimpedance on `BIDFIT==1` assuming it was
+a good-fit flag; n fell 5,949 → 99 and those 99 produced a confident primary result that
+contradicted the replication cycle. `BIDFIT` is a count of fit problems, modal value 0. **The
+statistics looked excellent — the tell was the sample size** ([VA-02 §3](analysis/VA02-REPORT.md)).
+Verify variable codings against distributions or the codebook before filtering on them, and say
+which you did.
 
 **R19 — Read the preparation, not just the result.** How the sample was obtained can
 manufacture the finding. The instance that produced this rule: I recorded "lymphoedema fluid
