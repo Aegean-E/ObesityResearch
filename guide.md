@@ -576,6 +576,14 @@ For this project specifically, always ask: liposuction aspirate or surgical biop
 lymph or tissue homogenate? Freeze–thawed? Ex vivo incubation that washes away the very
 gradient under study?
 
+**R23 — Name the compound, not just the target.** A class result licenses a *hypothesis* about a
+specific agent; it does not transfer the evidence to it. Compounds in a class differ in potency,
+selectivity, tissue distribution, pharmacokinetics and whether they were ever approved. The
+instance: I upgraded **epalrestat** to the register's best entry on a mouse paper that used
+**zopolrestat** — a compound never approved and since discontinued ([H3 §7.2](hypotheses/H3-polyol-osmolyte-mtor.md)).
+**The availability of an approved drug in the same class is precisely what makes this slide
+tempting**, so check which molecule was actually given before promoting any agent.
+
 **R22 — A counter-evidence entry must also record what the finding supports.** "Evidence
 against H1" is not a complete description of a datum. The instance: I filed higher lipolysis and
 an elevated FFA:glycerol ratio in lymphoedema as two separate contradictions, and never asked

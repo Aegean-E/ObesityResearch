@@ -241,3 +241,129 @@ a curiosity to the register's most interesting entry.
 2. Has **epalrestat** ever been looked at for weight or fat mass in its three markets? It has been
    in use for years in large diabetic populations, so the data may exist as a side observation.
 3. Senescence is a new mechanism for this project (**M9**) and is not in the guide's map.
+
+---
+
+# 6. Session 2026-10-02b — reading M9's keystone at figure level
+
+[README](../README.md) ranks this first because **the register's best entry rests on a search
+summary.** If the paper is weaker than its abstract, the best thing in this project moves.
+
+## Predictions, before reading (guide R11)
+
+- **P62** — The **human** data will be **expression-only** (AR mRNA/protein higher in obese
+  adipose), with all causal work in mice. Human functional data will be absent.
+- **P63** — The mouse result will be **prevention of diet-induced obesity**, not **reversal of
+  established obesity** — knockout or inhibitor started before or with the high-fat diet. That
+  distinction decides whether this is a treatment rationale or only a prevention one, and the
+  abstract's phrasing ("reduced HFD-induced obesity") hints at prevention.
+- **P64** — Senescence will rest on **markers** (p16, p21, SA-β-gal, SASP cytokines) rather than on
+  a **senolytic rescue experiment**. A rescue would make the mechanism causal rather than
+  correlative; I expect markers only.
+- **P65** — **Epalrestat will have no published weight or fat-mass outcome**, despite years of use
+  in large diabetic populations in three countries. If so, that is the project's clearest
+  ready-made opportunity: an approved drug, a plausible adipose mechanism, and an unexamined
+  outcome in existing prescribing data.
+- **P66 — the one that would weaken the bridge.** The AR inhibitor used in the mouse work will
+  **not** be epalrestat but a research compound (sorbinil, zopolrestat, fidarestat or similar). If
+  so, the link from "AR blockade reduces obesity in mice" to "epalrestat is available" is an
+  **inference across compounds**, not a demonstrated bridge, and [interventions.md §D1](../interventions.md)
+  overstates it.
+
+**P63 and P66 are the two that could demote M9.** Written before reading.
+
+## 7. Findings — M9's keystone read properly
+
+**Thiagarajan et al., *Obesity* (Silver Spring) 2022;30(8):1647–1658**, Ramasamy lab, NYU.
+Wiley blocked direct access; details below come from the publisher's press release and secondary
+coverage, **not from the figures**. That limit is stated because it matters: numbers on weight and
+fat mass are **still not in hand**.
+
+### 7.0 Scorecard — one refuted favourably, three confirmed, one surprise
+
+| | Outcome |
+|---|---|
+| **P62** | ✅ **Confirmed.** Human data is **cDNA from subcutaneous fat of lean vs obese subjects**, showing raised AR and senescence-marker expression. **Expression-only. No human functional data** |
+| **P63** | ❌ **REFUTED — in the favourable direction.** The inhibitor was given **after 11 weeks of high-fat feeding**, for 3 further weeks. So this is **treatment of established obesity, not prevention.** I predicted prevention and was wrong, and the real design is substantially more useful |
+| **P64** | ✅ Confirmed. Senescence assessed by **Cdkn2a** (p16INK4a) expression. **Marker-based; no senolytic rescue**, so the senescence step is correlative within the model |
+| **P65** | ✅ Confirmed. **No epalrestat weight or fat-mass outcome found**, including in a 3-year study across 112 facilities. Reported adverse effects are liver-enzyme elevations and GI events |
+| **P66** | ✅ **Confirmed, and it breaks a bridge I built.** The compound was **zopolrestat**, 2.5 mg/kg daily oral gavage — **not epalrestat** |
+
+### 7.1 ★ The design is better than I predicted
+
+> **Treatment began after the mice were already obese.** Eleven weeks of high-fat diet, *then*
+> three weeks of zopolrestat.
+
+Almost every promising obesity mechanism in animals is demonstrated as **prevention**, which is far
+easier and far less useful. This is a **reversal** design, and it is the single strongest thing
+about M9. I had assumed otherwise from the abstract's phrasing ("attenuated HFD-induced obesity")
+and was wrong.
+
+**Supporting numbers available, such as they are:** NEFA significantly higher in HFD-fed mice, and
+**lipolysis reduced ~50% in HFD vs chow** — with AR inhibition promoting lipolysis. Note that the
+baseline defect is **a halving of lipolysis in obesity**, which is [H2](H2-depletion-gates-lipolysis.md)'s
+territory: M9 and M8 may be describing the same suppressed-lipolysis state from different ends.
+
+### 7.2 ✗✗ Correction — I upgraded the wrong drug
+
+[interventions.md §D1](../interventions.md) upgraded **epalrestat** to "the register's most
+interesting entry" on the strength of this paper. **That was wrong, and the error is mine:**
+
+| What the paper used | What I promoted |
+|---|---|
+| **Zopolrestat** — a Pfizer-era aldose reductase inhibitor, **never approved**, development discontinued | **Epalrestat** — approved in Japan, China, India |
+
+They share a target and nothing else that was tested. Potency, selectivity, tissue distribution and
+pharmacokinetics all differ, and **no epalrestat adipose or obesity experiment exists**. So the
+chain "AR blockade reduces established obesity in mice → epalrestat is available" is an
+**inference across compounds**, not a demonstrated bridge.
+
+> **New rule, from this: R23 — name the compound, not just the target.** "AR blockade works" is not
+> "this AR inhibitor works." A class result licenses a hypothesis about a specific agent; it does
+> not transfer the evidence to it. I made exactly this slide, and the availability of the approved
+> drug is what made it tempting.
+
+### 7.3 ★ Unpredicted, and it is the §K pattern again
+
+I did not anticipate this: **the class's most advanced agent has already failed a Phase 3.**
+
+**AT-001 (caficrestat)** — a modern, potent oral AR inhibitor — ran **ARISE-HF**, a Phase 3,
+randomised, placebo-controlled trial in **675** patients with diabetic cardiomyopathy. Primary
+endpoint peak VO₂: placebo declined −0.31 mL/kg/min over 15 months, AT-001 1500 mg BID −0.01,
+**difference 0.30, p = 0.210. Not significant.**
+
+> So aldose reductase inhibition, as a class, now has **a properly powered human Phase 3 that
+> missed its primary endpoint** — in a different indication, but the same target. That is exactly
+> the pattern [interventions.md §K](../interventions.md) identified: mechanistically motivated
+> agents move biomarkers and miss hard endpoints. **M9 does not get an exemption from it.**
+
+**And a second missed opportunity, doubling P65.** ARISE-HF enrolled 675 patients with **mean BMI
+30.6**, treated for 15 months with an AR inhibitor, and **no weight or body-composition outcome is
+reported.** Combined with epalrestat's silent 3-year studies: the class has been given to large
+overweight diabetic populations for years and **nobody has reported what happened to their fat.**
+
+### 7.4 M9's standing, revised
+
+| | |
+|---|---|
+| Mechanism in the right tissue | ✅ subcutaneous adipose |
+| Human data | ◐ **expression only** |
+| Causal animal evidence | ✅ genetic (Akr1b3 deletion) **and** pharmacological |
+| **Reversal of established obesity, not prevention** | ✅ **the strongest feature** |
+| Senescence step | ◐ marker-based (Cdkn2a), **no senolytic rescue** |
+| Quantitative weight/fat effect size | ⬜ **still not in hand** — press release only, figures not read |
+| Bridge to an approved drug | ❌ **zopolrestat ≠ epalrestat** (§7.2) |
+| Class performance in humans | ❌ **Phase 3 failure** (AT-001/ARISE-HF, p=0.210) |
+
+**Net: M9 keeps its place as the project's best-supported target, on a better design than I
+credited it with — and its translational bridge is materially weaker than I claimed two sessions
+ago.** Both corrections matter and they point in opposite directions, which is why the row-by-row
+table is more honest than a verdict.
+
+**Still open, and now the sharpest question in the project:**
+
+> **Has anyone looked at body weight or fat mass in the large diabetic populations already taking
+> aldose reductase inhibitors?** Epalrestat in three countries for years; AT-001 in 675 patients
+> with mean BMI 30.6 for 15 months. The outcome is unreported, the exposure already happened, and
+> M9 predicts a direction. That is a retrospective analysis someone could do now, with no new
+> patients.

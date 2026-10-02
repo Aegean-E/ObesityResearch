@@ -168,7 +168,25 @@ measurably, at no cost and no risk — and nobody has shown that moving it chang
 **Benfotiamine** is listed within this class; no randomised polyol-pathway trial retrieved this
 session. **Open item.**
 
-> ### ★ UPGRADED 2026-10-02 — epalrestat now has an adipose rationale with a causal obesity result
+> ### ⚠ CORRECTED 2026-10-02b — I upgraded the wrong compound
+>
+> The block below upgraded **epalrestat** on the strength of Thiagarajan 2022. **The paper used
+> ZOPOLRESTAT** (2.5 mg/kg oral gavage), a Pfizer-era AR inhibitor that was **never approved** and
+> whose development was discontinued. Epalrestat and zopolrestat share a target and nothing else
+> that was tested, and **no epalrestat adipose or obesity experiment exists.** The upgrade was an
+> inference across compounds (**guide R23**), and the approved drug's availability is what made it
+> tempting.
+>
+> **Two further corrections, in both directions:**
+> - **Better than I said:** the mice were treated **after 11 weeks of high-fat diet** — this is
+>   **reversal of established obesity, not prevention**, which is the design that matters.
+> - **Worse than I said:** the class's most advanced agent, **AT-001/caficrestat**, **failed Phase 3**
+>   (ARISE-HF, n=675, primary endpoint p=0.210). AR inhibition now has a properly powered human
+>   miss, and §K's pattern applies to it like everything else.
+>
+> Full accounting: [H3 §7](hypotheses/H3-polyol-osmolyte-mtor.md). Original text kept below per R17.
+>
+> ### ~~★ UPGRADED 2026-10-02 — epalrestat now has an adipose rationale with a causal obesity result~~
 >
 > From [H3 §4.0](hypotheses/H3-polyol-osmolyte-mtor.md): **aldose reductase is increased in the
 > adipose tissue of humans and mice with obesity**, and **genetic deletion or pharmacological
