@@ -458,6 +458,13 @@ wrong is the most reusable thing in the project.
 
 **R18 — Numbers in this file are from memory until verified.** See §4.
 
+**R18b — An n-of-1 observation is D8/E1: it starts searches, it never supports claims.** The
+subject's own observations go in `observations/` **quoted unaltered**, with the separable claims
+inside them numbered so each can be tested on its own. They may direct the literature and they
+may be the reason a mechanism gets looked at — they may **never** appear beside a measured
+finding as though the two weighed the same. And the load-bearing claim in an observation is
+usually the one that feels most obvious to the observer: name it and design its test first.
+
 **R19 — Read the preparation, not just the result.** How the sample was obtained can
 manufacture the finding. The instance that produced this rule: I recorded "lymphoedema fluid
 has ~3× the FFA of serum" without noting the fluid was **centrifuged liposuction aspirate,
@@ -467,6 +474,13 @@ infiltration precisely to avoid this. **R14's "figure level" includes the method
 For this project specifically, always ask: liposuction aspirate or surgical biopsy? Cannulated
 lymph or tissue homogenate? Freeze–thawed? Ex vivo incubation that washes away the very
 gradient under study?
+
+**R21 — Name the tissue before claiming the pathway.** A correct mechanism applied in the
+wrong compartment is the error this project makes most. Twice now: the lymphatic clearance
+mechanism (dead — NEFA leave by capillary, session 2) and the PFK-1 bypass (hepatic only —
+muscle hexokinase puts fructose *above* the block, G01 §3.5). Before asserting that a pathway
+operates, check that the tissue in question **has the enzymes and transporters that pathway
+needs**. Correct biochemistry, wrong location, is still wrong.
 
 **R20 — Transport out of a tissue is size-gated; state the molecular radius.** Lymph-vs-
 capillary partitioning from human adipose tissue runs from **14% lymphatic at 1.18 nm to 100%
@@ -591,6 +605,8 @@ guessed in advance. Current convention:
 |---|---|
 | This guide | `guide.md` |
 | Hypothesis cards | `hypotheses/` — one file per hypothesis: claim stated falsifiably, mechanism candidates, discriminating tests, **death conditions**, predictions written before searching |
+| Subject observations | `observations/Gxx-*.md` — n-of-1 self-observations, **quoted unaltered**, coded **D8/E1** |
+| Interventions | `interventions.md` — agents evaluated by evidence quality against a named mechanism. Evaluation only, never a protocol |
 | Session logs | `sessions/` — one file per session: predictions → work → counter-evidence pass → audit |
 | Verified quantitative claims | `claims.md` — one row per claim: value, units, model system, design and exposure coding, causal code (R15), counter-evidence column (never left empty) |
 | Analysis scripts and outputs | `analysis/` — plan in the docstring before data (R13), results to CSV |
